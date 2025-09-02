@@ -1,0 +1,10 @@
+[user]
+	name = Szymon Wroński
+	email = szymoon.wronski@gmail.com
+	signingkey = /Users/szymonwronski/.ssh/id_ed25519.pub
+
+[commit]
+	gpgSign = true
+
+[gpg]
+	format = ssh
