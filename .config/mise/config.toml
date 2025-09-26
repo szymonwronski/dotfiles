@@ -1,0 +1,5 @@
+[tools]
+bun = "latest"
+go = "1.25"
+node = "lts"
+pnpm = "latest"

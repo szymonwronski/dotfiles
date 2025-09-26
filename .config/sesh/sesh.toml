@@ -1,0 +1,32 @@
+[default_session]
+startup_command = "tmux new-window -d; nvim ."
+
+[[session]]
+name = "Home 🏠"
+path = "~"
+startup_command = "l"
+
+[[session]]
+name = "Dotfiles 📂"
+path = "~/dotfiles"
+startup_command = "la"
+
+[[session]]
+name = "Downloads 📥"
+path = "~/Downloads"
+startup_command = "yazi"
+
+[[session]]
+name = "Work 💼"
+path = "~/work"
+startup_command = "l"
+
+[[session]]
+name = "Personal 💻"
+path = "~/personal"
+startup_command = "l"
+
+[[session]]
+name = "Playground 🎮"
+path = "~/playground"
+startup_command = "l"
