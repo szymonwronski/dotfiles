@@ -68,4 +68,6 @@ alias ll='eza --color=always --color-scale=all --color-scale-mode=gradient --ico
 alias la='eza --color=always --color-scale=all --color-scale-mode=gradient --icons=always --group-directories-first -a'
 alias lla='eza --color=always --color-scale=all --color-scale-mode=gradient --icons=always --group-directories-first -a -l --git -h'
 
+alias n='nvim .'
+
 export EDITOR='nvim'

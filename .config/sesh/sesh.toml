@@ -7,6 +7,11 @@ path = "~"
 startup_command = "l"
 
 [[session]]
+name = "Neovim Config 🧑‍💻"
+path = "~/dotfiles/.config/nvim"
+startup_command = "nvim ."
+
+[[session]]
 name = "Dotfiles 📂"
 path = "~/dotfiles"
 startup_command = "la"
@@ -14,7 +19,7 @@ startup_command = "la"
 [[session]]
 name = "Downloads 📥"
 path = "~/Downloads"
-startup_command = "yazi"
+startup_command = "l"
 
 [[session]]
 name = "Work 💼"

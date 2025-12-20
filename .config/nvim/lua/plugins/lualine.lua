@@ -1,12 +1,9 @@
 return {
-    'nvim-lualine/lualine.nvim',
-    dependencies = { 'nvim-tree/nvim-web-devicons' },
-    options = { theme = 'auto' },
-    config = function()
-        require('lualine').setup {
-            options = {
-                theme = "catppuccin"
-            }
-        }
-    end,
+	"nvim-lualine/lualine.nvim",
+	dependencies = { "nvim-mini/mini.icons" },
+	config = function()
+		require("mini.icons").setup()
+		require("mini.icons").mock_nvim_web_devicons()
+		require("lualine").setup()
+	end,
 }
