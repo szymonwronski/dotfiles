@@ -1,6 +1,6 @@
 theme = Catppuccin Mocha
 font-family = FiraCode Nerd Font Mono
-font-size = 20
+font-size = 19
 # macos-option-as-alt = true
 mouse-hide-while-typing = true
 window-decoration = none
