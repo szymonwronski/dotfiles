@@ -14,6 +14,10 @@ source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source <(fzf --zsh)
 
+if command -v ngrok &>/dev/null; then
+  eval "$(ngrok completion)"
+fi
+
 zvm_after_init() {
  # I need to put this here because zsh-vi-mode seems to override CTRL+R binding
   # Set up fzf key bindings and fuzzy completion: $(brew --prefix)/opt/fzf/install

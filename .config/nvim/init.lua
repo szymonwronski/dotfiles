@@ -33,7 +33,7 @@ vim.opt.termguicolors = true
 require("config.lazy")
 require("config.keymaps")
 
-vim.diagnostic.config({ virtual_text = true })
+vim.diagnostic.config({ virtual_text = true, severity_sort = true, float = { border = "rounded", source = true } })
 
 vim.api.nvim_create_autocmd("TextYankPost", {
 	desc = "Highlight when yanking text",
