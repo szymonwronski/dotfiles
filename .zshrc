@@ -8,6 +8,7 @@ fi
 eval "$(starship init zsh)"
 eval "$(zoxide init zsh)"
 eval "$(mise activate zsh)"
+eval $(thefuck --alias)
 source /opt/homebrew/opt/zsh-vi-mode/share/zsh-vi-mode/zsh-vi-mode.plugin.zsh
 source ~/.config/zsh/plugins/fzf-tab/fzf-tab.plugin.zsh
 source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh
@@ -73,5 +74,7 @@ alias la='eza --color=always --color-scale=all --color-scale-mode=gradient --ico
 alias lla='eza --color=always --color-scale=all --color-scale-mode=gradient --icons=always --group-directories-first -a -l --git -h'
 
 alias n='nvim .'
+
+alias lv='NVIM_APPNAME=lazyvim nvim .'
 
 export EDITOR='nvim'
