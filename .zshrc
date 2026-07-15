@@ -1,23 +1,48 @@
-if type brew &>/dev/null; then
-  FPATH=/opt/homebrew/share/zsh-completions:$FPATH
-  
-  autoload -Uz compinit
+source /opt/homebrew/opt/zinit/zinit.zsh
+
+# OPTIONS
+setopt auto_cd
+setopt no_beep
+setopt interactive_comments
+setopt extended_glob
+setopt appendhistory
+setopt sharehistory
+setopt hist_ignore_space
+setopt hist_ignore_all_dups
+setopt hist_save_no_dups
+setopt hist_ignore_dups
+setopt hist_find_no_dups
+setopt hist_reduce_blanks
+
+HISTSIZE=10000
+HISTFILE=~/.zsh_history
+SAVEHIST=$HISTSIZE
+HISTDUP=erase
+
+# COMPLETIONS & PLUGINS
+zinit ice blockf
+zinit light zsh-users/zsh-completions
+
+autoload -Uz compinit
+if [[ -n ${ZDOTDIR:-$HOME}/.zcompdump(#qN.mh+24) ]]; then
   compinit
+else
+  compinit -C
 fi
 
+zinit light Aloxaf/fzf-tab
+
+zinit light zsh-users/zsh-autosuggestions
+zinit light zdharma-continuum/fast-syntax-highlighting
+
+zinit ice depth=1
+zinit light jeffreytse/zsh-vi-mode
+ 
 eval "$(starship init zsh)"
 eval "$(zoxide init zsh)"
 eval "$(mise activate zsh)"
-eval $(thefuck --alias)
-source /opt/homebrew/opt/zsh-vi-mode/share/zsh-vi-mode/zsh-vi-mode.plugin.zsh
-source ~/.config/zsh/plugins/fzf-tab/fzf-tab.plugin.zsh
-source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh
-source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-source <(fzf --zsh)
-
-if command -v ngrok &>/dev/null; then
-  eval "$(ngrok completion)"
-fi
+eval "$(thefuck --alias)"
+eval "$(ngrok completion)" 
 
 zvm_after_init() {
  # I need to put this here because zsh-vi-mode seems to override CTRL+R binding
@@ -25,10 +50,18 @@ zvm_after_init() {
   # [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
   source <(fzf --zsh)
     bindkey -r '^K'
-    zle     -N             sesh-sessions
+    zle     -N            sesh-sessions
     bindkey -M emacs '^K' sesh-sessions
     bindkey -M vicmd '^K' sesh-sessions
     bindkey -M viins '^K' sesh-sessions
+
+    bindkey -r '^Y'
+    bindkey -M emacs '^Y' autosuggest-accept
+    bindkey -M vicmd '^Y' autosuggest-accept
+    bindkey -M viins '^Y' autosuggest-accept
+
+    bindkey '^p' history-beginning-search-backward
+    bindkey '^n' history-beginning-search-forward
 }
 
 function sesh-sessions() {
@@ -43,8 +76,9 @@ function sesh-sessions() {
   }
 }
 
-# fzf-tab config
-
+# FZF-TAB CONFIG
+# case insensitive
+zstyle ':completion:*' matcher-list 'm:{a-zA-Z}={A-Za-z}'
 # disable sort when completing `git checkout`
 zstyle ':completion:*:git-checkout:*' sort false
 # set descriptions format to enable group support
@@ -68,13 +102,17 @@ zstyle ':fzf-tab:*' switch-group '<' '>'
 zstyle ':fzf-tab:*' fzf-command ftb-tmux-popup
 zstyle ':fzf-tab:*' popup-min-size 80 12
 
+# ALIASES
 alias l='eza --color=always --color-scale=all --color-scale-mode=gradient --icons=always --group-directories-first'
 alias ll='eza --color=always --color-scale=all --color-scale-mode=gradient --icons=always --group-directories-first -l --git -h'
 alias la='eza --color=always --color-scale=all --color-scale-mode=gradient --icons=always --group-directories-first -a'
 alias lla='eza --color=always --color-scale=all --color-scale-mode=gradient --icons=always --group-directories-first -a -l --git -h'
 
 alias n='nvim .'
+alias q='exit'
 
-alias lv='NVIM_APPNAME=lazyvim nvim .'
-
-export EDITOR='nvim'
+alias gi='git init'
+alias gs='git status --short'
+alias gc='git commit -m'
+alias ga='git add'
+alias gl='git log --graph --oneline --decorate'

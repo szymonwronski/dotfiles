@@ -17,7 +17,16 @@
   tab   q     w     e     r     t     y     u     i     o     p     [     ]
   @caps @a    @s    @d    @f    g     h     @j    @k    @l    @;    '     \     ret
   lsft  grv   z     x     c     v     b     n     m     ,     .     /     rsft
-  @fn  lctl  lalt  lmet              spc               rmet  ralt  ◀    ▲ ▼    ▶
+  @fn   lctl  lalt  @lmet             spc               @rmet ralt  ◀    ▲ ▼    ▶
+)
+
+(deflayer colemak-dh
+  esc     🔅    🔆    mctl  sls   dtn   dnd   ◀◀    ▶⏸    ▶▶    🔇    🔉    🔊
+  lsgt  1     2     3     4     5     6     7     8     9     0     -     =     bspc
+  tab   q     w     f     p     b     j     l     u     y     ;     [     ]
+  @caps a     r     s     t     g     m     n     e     i     o     '     \     ret
+  lsft  z     x     c     d     v     grv   k     h     ,     .     /     rsft
+  @fn   lctl  lalt  lmet              spc               rmet  ralt  ◀     ▲ ▼    ▶
 )
 
 (deflayer fn
@@ -25,31 +34,35 @@
   _     _     _     _     _     _     _     _     _     _     _     _     _     del
   _     _     _     _     lrld  _     _     _     _     _     _     _     _
   _     _     _     _     _     _     _     _     _     _     _     _     _     _
-  _   _ _     _     _     _     @tobase     @tonomods     _     _     _     _     _
+  _     _     _     _     @tocolemak  _     @tobase     @tonomods   _     _     _     _     _
   _     _     _     _                 _                 _     _     ⤒    ⇞ ⇟    ⤓
 )
 
 (deflayer nomods
-  esc   f1    f2    f3    f4    f5    f6    f7    f8    f9    f10   f11   f12
+  esc     🔅    🔆    mctl  sls   dtn   dnd   ◀◀    ▶⏸    ▶▶    🔇    🔉    🔊
   lsgt  1     2     3     4     5     6     7     8     9     0     -     =     bspc
   tab   q     w     e     r     t     y     u     i     o     p     [     ]
-  @caps  a     s     d     f     g     h     j     k     l     ;     '     \     ret
+  @caps a     s     d     f     g     h     j     k     l     ;     '     \     ret
   lsft  grv   z     x     c     v     b     n     m     ,     .     /     rsft
-  @fn    lctl  lalt  lmet              spc               rmet  ralt  ◀    ▲ ▼    ▶
+  @fn   lctl  lalt  lmet              spc               rmet  ralt  ◀    ▲ ▼    ▶
 )
 
 (defvar
   tap-time 200
   hold-time 150
+  hold-pinky 175
+  hold-ring  175
+  hold-mid   150
+  hold-index 150
 
   left-hand-keys (
     q w e r t
-    a s d f g
+    a
     z x c v b
   )
   right-hand-keys (
     y u i o p
-    h j k l ;
+    h
     n m , . /
   )
 )
@@ -64,20 +77,24 @@
     (on-idle-fakekey to-base tap 20)
   )
 
-  fn (tap-hold $tap-time $hold-time fn (layer-toggle fn))
+  fn (tap-hold $tap-time $hold-time fn (layer-while-held fn))
 
   caps (tap-hold $tap-time $hold-time esc (layer-while-held nav))
+  lmet (tap-hold $tap-time $hold-time bspc (layer-while-held numpad))
+  rmet (tap-hold $tap-time $hold-time ret rmet)
 
-  a (tap-hold-release-keys $tap-time $hold-time (multi a @tap) lctl $left-hand-keys)
-  s (tap-hold-release-keys $tap-time $hold-time (multi s @tap) lalt $left-hand-keys)
-  d (tap-hold-release-keys $tap-time $hold-time (multi d @tap) lmet $left-hand-keys)
-  f (tap-hold-release-keys $tap-time $hold-time (multi f @tap) lsft $left-hand-keys)
-  j (tap-hold-release-keys $tap-time $hold-time (multi j @tap) rsft $right-hand-keys)
-  k (tap-hold-release-keys $tap-time $hold-time (multi k @tap) rmet $right-hand-keys)
-  l (tap-hold-release-keys $tap-time $hold-time (multi l @tap) ralt $right-hand-keys)
-  ; (tap-hold-release-keys $tap-time $hold-time (multi ; @tap) rctl $right-hand-keys)
+  a (tap-hold-release-keys $tap-time $hold-pinky (multi a @tap) lctl $left-hand-keys)
+  s (tap-hold-release-keys $tap-time $hold-ring (multi s @tap) lalt $left-hand-keys)
+  d (tap-hold-release-keys $tap-time $hold-mid (multi d @tap) lmet $left-hand-keys)
+  f (tap-hold-release-keys $tap-time $hold-index (multi f @tap) lsft $left-hand-keys)
+
+  j (tap-hold-release-keys $tap-time $hold-index (multi j @tap) rsft $right-hand-keys)
+  k (tap-hold-release-keys $tap-time $hold-mid (multi k @tap) rmet $right-hand-keys)
+  l (tap-hold-release-keys $tap-time $hold-ring (multi l @tap) ralt $right-hand-keys)
+  ; (tap-hold-release-keys $tap-time $hold-pinky (multi ; @tap) rctl $right-hand-keys)
 
   tobase (layer-switch base)
+  tocolemak (layer-switch colemak-dh)
   tonomods (layer-switch nomods)
 )
 
@@ -86,4 +103,14 @@
   j down
   k up
   l right
+
+  u bspc
+  i ret
+)
+
+(deflayermap (numpad)
+  u 7    i 8    o 9
+  j 4    k 5    l 6
+  m 1    , 2    . 3
+  spc 0
 )

@@ -4,3 +4,7 @@ font-size = 19
 # macos-option-as-alt = true
 mouse-hide-while-typing = true
 window-decoration = none
+# background-opacity = 0.9
+# background-blur = true
+copy-on-select = true
+selection-clear-on-copy = true
