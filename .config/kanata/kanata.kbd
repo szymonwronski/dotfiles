@@ -51,13 +51,13 @@
   tap-time 200
   hold-time 150
   hold-pinky 175
-  hold-ring  165
+  hold-ring 165
   hold-mid   150
   hold-index 150
 
   left-hand-keys (
     q w e r t
-            g 
+            g
     z x c v b
   )
   right-hand-keys (
