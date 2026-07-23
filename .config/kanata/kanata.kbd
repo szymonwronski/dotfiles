@@ -129,7 +129,7 @@
   rc (tap-hold-release-keys $tap-time $hold-ring (multi r @tapc) lalt $left-hand-keysc)
   sc (tap-hold-release-keys $tap-time $hold-mid (multi s @tapc) lmet $left-hand-keysc)
   tc (tap-hold-release-keys $tap-time $hold-index (multi t @tapc) lsft $left-hand-keysc)
-c
+
   nc (tap-hold-release-keys $tap-time $hold-index (multi n @tapc) rsft $right-hand-keysc)
   ec (tap-hold-release-keys $tap-time $hold-mid (multi e @tapc) rmet $right-hand-keysc)
   ic (tap-hold-release-keys $tap-time $hold-ring (multi i @tapc) ralt $right-hand-keysc)
