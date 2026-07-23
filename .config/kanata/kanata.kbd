@@ -24,9 +24,9 @@
   esc     🔅    🔆    mctl  sls   dtn   dnd   ◀◀    ▶⏸    ▶▶    🔇    🔉    🔊
   lsgt  1     2     3     4     5     6     7     8     9     0     -     =     bspc
   tab   q     w     f     p     b     j     l     u     y     ;     [     ]
-  @caps a     r     s     t     g     m     n     e     i     o     '     \     ret
+  @caps @ac   @rc   @sc   @tc   g     m     @nc   @ec   @ic   @oc   '     \     ret
   lsft  z     x     c     d     v     grv   k     h     ,     .     /     rsft
-  @fn   lctl  lalt  lmet              spc               rmet  ralt  ◀     ▲ ▼    ▶
+  @fn   lctl  lalt  @lmet             spc              @rmet  ralt  ◀     ▲ ▼    ▶
 )
 
 (deflayer fn
@@ -47,6 +47,20 @@
   @fn   lctl  lalt  lmet              spc               rmet  ralt  ◀    ▲ ▼    ▶
 )
 
+(deflayer nomodsc
+  esc     🔅    🔆    mctl  sls   dtn   dnd   ◀◀    ▶⏸    ▶▶    🔇    🔉    🔊
+  lsgt  1     2     3     4     5     6     7     8     9     0     -     =     bspc
+  tab   q     w     f     p     b     j     l     u     y     ;     [     ]
+  @caps a     r     s     t     g     m     n     e     i     o     '     \     ret
+  lsft  z     x     c     d     v     grv   k     h     ,     .     /     rsft
+  @fn   lctl  lalt  lmet              spc               rmet  ralt  ◀     ▲ ▼    ▶
+)
+
+(defhands
+  (left  q w e r t a s d f g ` z x c v b)
+  (right y u i o p h j k l ; n m , . /)
+)
+
 (defvar
   tap-time 200
   hold-time 150
@@ -65,16 +79,34 @@
     h
     n m , . /
   )
+
+  left-hand-keysc (
+    q w f p b
+            g
+    z x c d v `
+  )
+
+  right-hand-keysc (
+    j l u y ;
+    m
+    k h , . /
+  )
 )
 
 (deffakekeys
   to-base (layer-switch base)
+  to-basec (layer-switch colemak-dh)
 )
 
 (defalias
   tap (multi
     (layer-switch nomods)
     (on-idle-fakekey to-base tap 20)
+  )
+
+  tapc (multi
+    (layer-switch nomodsc)
+    (on-idle-fakekey to-basec tap 20)
   )
 
   fn (tap-hold $tap-time $hold-time fn (layer-while-held fn))
@@ -93,16 +125,27 @@
   l (tap-hold-release-keys $tap-time $hold-ring (multi l @tap) ralt $right-hand-keys)
   ; (tap-hold-release-keys $tap-time $hold-pinky (multi ; @tap) rctl $right-hand-keys)
 
+  ac (tap-hold-release-keys $tap-time $hold-pinky (multi a @tapc) lctl $left-hand-keysc)
+  rc (tap-hold-release-keys $tap-time $hold-ring (multi r @tapc) lalt $left-hand-keysc)
+  sc (tap-hold-release-keys $tap-time $hold-mid (multi s @tapc) lmet $left-hand-keysc)
+  tc (tap-hold-release-keys $tap-time $hold-index (multi t @tapc) lsft $left-hand-keysc)
+c
+  nc (tap-hold-release-keys $tap-time $hold-index (multi n @tapc) rsft $right-hand-keysc)
+  ec (tap-hold-release-keys $tap-time $hold-mid (multi e @tapc) rmet $right-hand-keysc)
+  ic (tap-hold-release-keys $tap-time $hold-ring (multi i @tapc) ralt $right-hand-keysc)
+  oc (tap-hold-release-keys $tap-time $hold-pinky (multi o @tapc) rctl $right-hand-keysc)
+
   tobase (layer-switch base)
+  tobasec (layer-switch colemak-dh)
   tocolemak (layer-switch colemak-dh)
   tonomods (layer-switch nomods)
 )
 
 (deflayermap (nav)
-  h left
-  j down
-  k up
-  l right
+  j left
+  k down
+  l up
+  ; right
 
   u bspc
   i ret
