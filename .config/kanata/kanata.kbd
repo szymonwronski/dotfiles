@@ -17,7 +17,7 @@
   tab   q     w     e     r     t     y     u     i     o     p     [     ]
   @caps @a    @s    @d    @f    g     h     @j    @k    @l    @;    '     \     ret
   lsft  grv   z     x     c     v     b     n     m     ,     .     /     rsft
-  @fn   lctl  lalt  @lmet             spc               @rmet ralt  ◀    ▲ ▼    ▶
+  @fn   lctl  lalt  lmet             spc               @rmet ralt  ◀    ▲ ▼    ▶
 )
 
 (deflayer colemak-dh
@@ -26,7 +26,7 @@
   tab   q     w     f     p     b     j     l     u     y     ;     [     ]
   @caps @ac   @rc   @sc   @tc   g     m     @nc   @ec   @ic   @oc   '     \     ret
   lsft  z     x     c     d     v     grv   k     h     ,     .     /     rsft
-  @fn   lctl  lalt  @lmet             spc              @rmet  ralt  ◀     ▲ ▼    ▶
+  @fn   lctl  lalt  lmet             spc              @rmet  ralt  ◀     ▲ ▼    ▶
 )
 
 (deflayer fn
@@ -85,7 +85,6 @@
   fn (tap-hold $tap-time $hold-time fn (layer-while-held fn))
 
   caps (tap-hold $tap-time $hold-time esc (layer-while-held nav))
-  lmet (tap-hold $tap-time $hold-time bspc (layer-while-held numpad))
   rmet (tap-hold $tap-time $hold-time ret rmet)
 
   a (tap-hold-release-keys $tap-time $hold-pinky (multi a @tap) lctl $left-hand-keys)
@@ -121,11 +120,4 @@
 
   u bspc
   i ret
-)
-
-(deflayermap (numpad)
-  u 7    i 8    o 9
-  j 4    k 5    l 6
-  m 1    , 2    . 3
-  spc 0
 )

@@ -116,3 +116,5 @@ alias gs='git status --short'
 alias gc='git commit -m'
 alias ga='git add'
 alias gl='git log --graph --oneline --decorate'
+
+. "$HOME/.local/bin/env"
