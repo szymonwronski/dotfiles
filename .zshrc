@@ -49,11 +49,11 @@ zvm_after_init() {
   # Set up fzf key bindings and fuzzy completion: $(brew --prefix)/opt/fzf/install
   # [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
   source <(fzf --zsh)
-    bindkey -r '^K'
+    bindkey -r '^ '
     zle     -N            sesh-sessions
-    bindkey -M emacs '^K' sesh-sessions
-    bindkey -M vicmd '^K' sesh-sessions
-    bindkey -M viins '^K' sesh-sessions
+    bindkey -M emacs '^ ' sesh-sessions
+    bindkey -M vicmd '^ ' sesh-sessions
+    bindkey -M viins '^ ' sesh-sessions
 
     bindkey -r '^Y'
     bindkey -M emacs '^Y' autosuggest-accept
