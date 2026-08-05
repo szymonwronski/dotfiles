@@ -3,8 +3,9 @@
   "catppuccin": { "branch": "main", "commit": "79e2049a0fdf7ec840f8463fe1d962c94493196b" },
   "conform.nvim": { "branch": "master", "commit": "619363c30309d29ffa631e67c8183f2a72caa373" },
   "dial.nvim": { "branch": "master", "commit": "f2634758455cfa52a8acea6f142dcd6271a1bf57" },
+  "fidget.nvim": { "branch": "main", "commit": "6f793b2bcd2d35e201c09520f698bb763220908a" },
   "friendly-snippets": { "branch": "main", "commit": "6cd7280adead7f586db6fccbd15d2cac7e2188b9" },
-  "fzf-lua": { "branch": "main", "commit": "28440c741e927592877514fba3db21eb188caec8" },
+  "fzf-lua": { "branch": "main", "commit": "c46b51aac910a2115545029f74b0a04df7ed1872" },
   "gitsigns.nvim": { "branch": "main", "commit": "31d6fb2d618bca1482b9f274751ead5f03461408" },
   "lazy.nvim": { "branch": "main", "commit": "306a05526ada86a7b30af95c5cc81ffba93fef97" },
   "lazydev.nvim": { "branch": "main", "commit": "ff2cbcba459b637ec3fd165a2be59b7bbaeedf0d" },
@@ -25,5 +26,6 @@
   "snacks.nvim": { "branch": "main", "commit": "882c996cf28183f4d63640de0b4c02ec886d01f2" },
   "todo-comments.nvim": { "branch": "main", "commit": "31e3c38ce9b29781e4422fc0322eb0a21f4e8668" },
   "tree-sitter-manager.nvim": { "branch": "main", "commit": "9dc4ffc4fb010e7abb976a92360c2c5a7d324c15" },
-  "undotree": { "branch": "main", "commit": "02b69aed427b848c4dca483fc5e9524b6019c296" }
+  "undotree": { "branch": "main", "commit": "02b69aed427b848c4dca483fc5e9524b6019c296" },
+  "vim-tpipeline": { "branch": "master", "commit": "9c1fc6a9aed96a6ff5f5cb0420e3760e95dfb1c1" }
 }
