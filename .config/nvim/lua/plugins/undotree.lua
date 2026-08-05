@@ -1,7 +1,9 @@
 return {
-	"mbbill/undotree",
-	config = function()
-		vim.g.undotree_SetFocusWhenToggle = 1
-		vim.keymap.set("n", "<leader>u", vim.cmd.UndotreeToggle)
-	end,
+	"jiaoshijie/undotree",
+	opts = {
+		-- your options
+	},
+	keys = { -- load the plugin only when using it's keybinding:
+		{ "<leader>u", "<cmd>lua require('undotree').toggle()<cr>" },
+	},
 }

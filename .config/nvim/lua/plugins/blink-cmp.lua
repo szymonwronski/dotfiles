@@ -25,7 +25,12 @@ return {
 		-- C-k: Toggle signature help (if signature.enabled = true)
 		--
 		-- See :h blink-cmp-config-keymap for defining your own keymap
-		keymap = { preset = "default" },
+		keymap = {
+			preset = "default",
+
+			["<C-u>"] = { "scroll_signature_up", "fallback" },
+			["<C-d>"] = { "scroll_signature_down", "fallback" },
+		},
 
 		appearance = {
 			-- 'mono' (default) for 'Nerd Font Mono' or 'normal' for 'Nerd Font'
@@ -48,6 +53,8 @@ return {
 		--
 		-- See the fuzzy documentation for more information
 		fuzzy = { implementation = "prefer_rust_with_warning" },
+
+		signature = { enabled = true },
 	},
 	opts_extend = { "sources.default" },
 }
