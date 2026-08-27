@@ -1,4 +1,7 @@
 return {
-  font = "SF Pro",
-  paddings = 3,
+	font = {
+		icon = "SF Pro",
+		label = "JetBrainsMono Nerd Font",
+	},
+	paddings = 3,
 }

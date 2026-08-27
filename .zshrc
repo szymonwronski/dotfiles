@@ -62,6 +62,9 @@ zvm_after_init() {
 
     bindkey '^p' history-beginning-search-backward
     bindkey '^n' history-beginning-search-forward
+
+    bindkey " " magic-space
+
 }
 
 function sesh-sessions() {

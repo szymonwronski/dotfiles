@@ -1,0 +1,17 @@
+{
+  "frequencies": {},
+  "selectionTimestamps": {},
+  "history": [],
+  "note": "",
+  "onboardingStep": "v1_start",
+  "clipboard": {
+    "saveHistory": false
+  },
+  "calendar": {
+    "selectedCalendarIds": [],
+    "hasInitializedSelection": false
+  },
+  "emoji": {
+    "frequentlyUsedEmojis": {}
+  }
+}

@@ -2,9 +2,11 @@ local cal = sbar.add("item", {
 	icon = {
 		padding_right = 0,
 		font = {
-			style = "Black",
-			size = 12.0,
+			family = "JetBrainsMono Nerd Font",
+			style = "ExtraBold",
+			size = 13.0,
 		},
+		-- font = "JetBrainsMono Nerd Font:ExtraBold:13.0",
 	},
 	label = {
 		width = 70,
@@ -16,7 +18,11 @@ local cal = sbar.add("item", {
 
 local function update()
 	local date = os.date("%a %b %d")
-	local time = os.date("%I:%M %p")
+
+	---@diagnostic disable-next-line
+	local time = os.date("%I:%M %p"):gsub("^0", "")
+	-- local time = "12:20 PM"
+
 	cal:set({ icon = date, label = time })
 end
 

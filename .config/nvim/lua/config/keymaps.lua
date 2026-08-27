@@ -14,6 +14,7 @@ vim.keymap.set("x", "<leader>p", '"_dP', { desc = "Paste (keep register value)" 
 
 vim.keymap.set("n", "gl", vim.diagnostic.open_float, { desc = "Open diagnostic float" })
 
+--obsolete while using tiny-inline-diagnostics
 vim.keymap.set("n", "<leader>vt", function()
 	local current_value = vim.diagnostic.config().virtual_text
 	if current_value then
