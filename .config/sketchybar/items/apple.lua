@@ -1,7 +1,7 @@
 local icons = require("icons")
 local colors = require("colors")
 
-local apple_logo = sbar.add("item", {
+sbar.add("item", {
 	padding_right = 15,
 	icon = {
 		string = icons.apple,
