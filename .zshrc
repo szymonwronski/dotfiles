@@ -43,6 +43,7 @@ eval "$(zoxide init zsh)"
 eval "$(mise activate zsh)"
 eval "$(thefuck --alias)"
 eval "$(ngrok completion)" 
+eval "$(atuin init zsh)"
 
 zvm_after_init() {
  # I need to put this here because zsh-vi-mode seems to override CTRL+R binding
@@ -121,3 +122,6 @@ alias ga='git add'
 alias gl='git log --graph --oneline --decorate'
 
 . "$HOME/.local/bin/env"
+
+# Added by Antigravity IDE
+export PATH="/Users/szymonwronski/.antigravity-ide/antigravity-ide/bin:$PATH"
