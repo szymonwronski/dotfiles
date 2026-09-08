@@ -25,9 +25,9 @@ zinit light zsh-users/zsh-completions
 
 autoload -Uz compinit
 if [[ -n ${ZDOTDIR:-$HOME}/.zcompdump(#qN.mh+24) ]]; then
-  compinit
+	compinit
 else
-  compinit -C
+	compinit -C
 fi
 
 zinit light Aloxaf/fzf-tab
@@ -37,47 +37,45 @@ zinit light zdharma-continuum/fast-syntax-highlighting
 
 zinit ice depth=1
 zinit light jeffreytse/zsh-vi-mode
- 
+
 eval "$(starship init zsh)"
 eval "$(zoxide init zsh)"
 eval "$(mise activate zsh)"
-eval "$(thefuck --alias)"
-eval "$(ngrok completion)" 
-eval "$(atuin init zsh)"
+eval "$(ngrok completion)"
 
 zvm_after_init() {
- # I need to put this here because zsh-vi-mode seems to override CTRL+R binding
-  # Set up fzf key bindings and fuzzy completion: $(brew --prefix)/opt/fzf/install
-  # [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
-  source <(fzf --zsh)
-    bindkey -r '^ '
-    zle     -N            sesh-sessions
-    bindkey -M emacs '^ ' sesh-sessions
-    bindkey -M vicmd '^ ' sesh-sessions
-    bindkey -M viins '^ ' sesh-sessions
+	# I need to put this here because zsh-vi-mode seems to override CTRL+R binding
+	# Set up fzf key bindings and fuzzy completion: $(brew --prefix)/opt/fzf/install
+	# [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+	source <(fzf --zsh)
+	bindkey -r '^ '
+	zle -N sesh-sessions
+	bindkey -M emacs '^ ' sesh-sessions
+	bindkey -M vicmd '^ ' sesh-sessions
+	bindkey -M viins '^ ' sesh-sessions
 
-    bindkey -r '^Y'
-    bindkey -M emacs '^Y' autosuggest-accept
-    bindkey -M vicmd '^Y' autosuggest-accept
-    bindkey -M viins '^Y' autosuggest-accept
+	bindkey -r '^Y'
+	bindkey -M emacs '^Y' autosuggest-accept
+	bindkey -M vicmd '^Y' autosuggest-accept
+	bindkey -M viins '^Y' autosuggest-accept
 
-    bindkey '^p' history-beginning-search-backward
-    bindkey '^n' history-beginning-search-forward
+	bindkey '^p' history-beginning-search-backward
+	bindkey '^n' history-beginning-search-forward
 
-    bindkey " " magic-space
-
+	bindkey " " magic-space
+	bindkey -M viins ' ' magic-space
 }
 
 function sesh-sessions() {
-  {
-    exec </dev/tty
-    exec <&1
-    local session
-    session=$(sesh list | fzf --height 40% --reverse --border-label ' sesh ' --border --prompt '⚡  ')
-    zle reset-prompt > /dev/null 2>&1 || true
-    [[ -z "$session" ]] && return
-    sesh connect $session
-  }
+	{
+		exec </dev/tty
+		exec <&1
+		local session
+		session=$(sesh list | fzf --height 40% --reverse --border-label ' sesh ' --border --prompt '⚡  ')
+		zle reset-prompt >/dev/null 2>&1 || true
+		[[ -z "$session" ]] && return
+		sesh connect $session
+	}
 }
 
 # FZF-TAB CONFIG
@@ -112,16 +110,22 @@ alias ll='eza --color=always --color-scale=all --color-scale-mode=gradient --ico
 alias la='eza --color=always --color-scale=all --color-scale-mode=gradient --icons=always --group-directories-first -a'
 alias lla='eza --color=always --color-scale=all --color-scale-mode=gradient --icons=always --group-directories-first -a -l --git -h'
 
-alias n='nvim .'
 alias q='exit'
 
 alias gi='git init'
 alias gs='git status --short'
-alias gc='git commit -m'
-alias ga='git add'
+alias ga="git add ."
 alias gl='git log --graph --oneline --decorate'
 
-. "$HOME/.local/bin/env"
+n() {
+	if [ "$#" -eq 0 ]; then
+		nvim .
+	else
+		nvim "$@"
+	fi
+}
+
+gc() { git commit -m "$*"; }
 
 # Added by Antigravity IDE
 export PATH="/Users/szymonwronski/.antigravity-ide/antigravity-ide/bin:$PATH"
