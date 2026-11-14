@@ -1,4 +1,4 @@
-# Mole Cleanup Preview - 2026-09-08 19:03:00
+# Mole Cleanup Preview - 2026-10-01 23:32:04
 #
 # How to protect files:
 # 1. Copy any path below to ~/.config/mole/whitelist
@@ -8,3 +8,1137 @@
 #   /Users/*/Library/Caches/com.example.app
 #
 
+
+=== User essentials ===
+/Users/szymonwronski/Library/Caches/Zed  # 0B
+/Users/szymonwronski/Library/Caches/bun  # 9.5MB
+/Users/szymonwronski/Library/Caches/ssu  # 0B
+/Users/szymonwronski/Library/Caches/zen  # 1.15GB
+/Users/szymonwronski/Library/Caches/Vial  # 0B
+/Users/szymonwronski/Library/Caches/mise  # 21.8MB
+/Users/szymonwronski/Library/Caches/tlrc  # 30.9MB
+/Users/szymonwronski/Library/Caches/GameKit  # 49KB
+/Users/szymonwronski/Library/Caches/Mozilla  # 70KB
+/Users/szymonwronski/Library/Caches/PassKit  # 2.4MB
+/Users/szymonwronski/Library/Caches/vicinae  # 4KB
+/Users/szymonwronski/Library/Caches/Homebrew  # 5.72GB
+/Users/szymonwronski/Library/Caches/node-gyp  # 67.6MB
+/Users/szymonwronski/Library/Caches/GeoServices  # 52.6MB
+/Users/szymonwronski/Library/Caches/PHTPhenotype  # 16KB
+/Users/szymonwronski/Library/Caches/familycircled  # 0B
+/Users/szymonwronski/Library/Caches/askpermissiond  # 233KB
+/Users/szymonwronski/Library/Caches/MiniBar-artwork  # 549KB
+/Users/szymonwronski/Library/Caches/dev.sigstore.sigstore-rust  # 45KB
+/Users/szymonwronski/Library/Caches/com.google.antigravity.ShipIt  # 8KB
+/Users/szymonwronski/Library/Caches/com.google.antigravity-ide.ShipIt  # 0B
+/Users/szymonwronski/Library/Logs/Zed  # 8KB
+/Users/szymonwronski/Library/Logs/Baseband  # 0B
+/Users/szymonwronski/Library/Logs/Homebrew  # 0B
+/Users/szymonwronski/Library/Logs/Assistant  # 0B
+/Users/szymonwronski/Library/Logs/Antigravity  # 66KB
+/Users/szymonwronski/Library/Logs/fsck_hfs.log  # 7KB
+/Users/szymonwronski/Library/Logs/CoreSimulator  # 4KB
+/Users/szymonwronski/Library/Logs/CrashReporter  # 12KB
+/Users/szymonwronski/Library/Logs/SiriTTSService  # 0B
+/Users/szymonwronski/Library/Logs/DiagnosticReports  # 45KB
+/Users/szymonwronski/Library/Logs/PhotosSearch.aapbz  # 9KB
+/Users/szymonwronski/Library/Logs/PrivacyPreservingMeasurement  # 0B
+
+=== App caches ===
+/Users/szymonwronski/Library/Application Support/CrashReporter/zen_BA7600BF-CF01-5456-BDB3-62A7EAC433DD.plist  # 4KB
+/Users/szymonwronski/Library/Containers/com.apple.mediaanalysisd/Data/tmp/Pissarro  # 7.5MB
+/Users/szymonwronski/Library/Containers/com.apple.mediaanalysisd/Data/tmp/TemporaryItems  # 0B
+/Users/szymonwronski/Library/Containers/com.apple.mediaanalysisd/Data/tmp/com.apple.mediaanalysis  # 0B
+/Users/szymonwronski/Library/Containers/com.apple.geod/Data/tmp/TemporaryItems  # 0B
+/Users/szymonwronski/Library/Containers/com.apple.geod/Data/tmp/03C4023E-F325-4E90-BE28-2CAC8FB1FC41  # 318KB
+/Users/szymonwronski/Library/Containers/com.apple.geod/Data/tmp/1231C5C1-1FD8-4769-948F-9DA15B512A46  # 318KB
+/Users/szymonwronski/Library/Containers/com.apple.geod/Data/tmp/6D591BB2-67E3-4616-A8EC-22CE6735A1CF  # 318KB
+/Users/szymonwronski/Library/Containers/com.apple.geod/Data/tmp/8BE50FE0-B013-4E76-A09D-89D127DBDD48  # 318KB
+/Users/szymonwronski/Library/Containers/com.apple.geod/Data/tmp/AEF59194-604F-4831-B165-D909FCE822D5  # 318KB
+/Users/szymonwronski/Library/Caches/com.apple.helpd/Generated  # 16.9MB
+/Users/szymonwronski/Library/Caches/com.apple.helpd/HSTS.plist  # 1KB
+/Users/szymonwronski/Library/Caches/com.apple.helpd/fsCachedData  # 16.2MB
+/Users/szymonwronski/Library/Caches/com.apple.helpd/HelpCache.plist  # 34KB
+/Users/szymonwronski/Library/Caches/com.apple.helpd/CSHelpIndex.plist  # 29KB
+/Users/szymonwronski/Library/Caches/GeoServices/Resources  # 51.9MB, counted under /Users/szymonwronski/Library/Caches/GeoServices
+/Users/szymonwronski/Library/Caches/GeoServices/ActiveTileGroup.pbd  # 292KB, counted under /Users/szymonwronski/Library/Caches/GeoServices
+/Users/szymonwronski/Library/Caches/GeoServices/ResourceManifest.pbd  # 318KB, counted under /Users/szymonwronski/Library/Caches/GeoServices
+/Users/szymonwronski/Library/Caches/GeoServices/SearchAttribution.pbd  # 70KB, counted under /Users/szymonwronski/Library/Caches/GeoServices
+/Users/szymonwronski/Library/Caches/GeoServices/DirectReadConfigStore.plist  # 1KB, counted under /Users/szymonwronski/Library/Caches/GeoServices
+/Users/szymonwronski/Library/Caches/com.apple.AppleMediaServices/Metrics  # 729KB
+/Users/szymonwronski/Library/Caches/com.apple.AppleMediaServices/Storage  # 45KB
+/Users/szymonwronski/Library/Caches/com.apple.AppleMediaServices/DynamicUI  # 406KB
+/Users/szymonwronski/Library/Caches/com.apple.AppleMediaServices/Engagement  # 877KB
+/Users/szymonwronski/Library/Caches/com.apple.AppleMediaServices/PaymentSheetsUI  # 1.9MB
+/Users/szymonwronski/Library/Caches/com.apple.AppleMediaServices/sap-setup-cert.txt  # 3KB
+/Users/szymonwronski/Library/Caches/com.apple.parsecd/bag.plist  # 52KB
+/Users/szymonwronski/Library/Caches/com.apple.parsecd/CustomFeedback  # 0B
+/Users/szymonwronski/Library/Caches/com.apple.python/Applications  # 201KB
+
+=== Browsers ===
+/Users/szymonwronski/Library/Application Support/Google/GoogleUpdater/crx_cache/metadata.json  # 1KB
+/Users/szymonwronski/Library/Application Support/Google/GoogleUpdater/crx_cache/1a7aef6023dd1d6f6d25ae2ff53a9d2956498bb825e9e8c215f193eea5c689e7  # 27.2MB
+/Users/szymonwronski/Library/Application Support/Google/GoogleUpdater/crx_cache/a3a7ee87e779b99f3a8b60dfd9d8078c40a399b833c512223bb1b817b1d7430b  # 754.1MB
+/Users/szymonwronski/Library/Application Support/Google/GoogleUpdater/crx_cache/c44d2c370c58f5951533594e54b5490d8211bdd101825f561086a7b02dbb90ec  # 160.7MB
+/Users/szymonwronski/Library/Application Support/Google/GoogleUpdater/updater.log.old  # 1.1MB
+/Users/szymonwronski/Library/Application Support/Google/GoogleUpdater/updater_history.jsonl.old  # 1.0MB
+/Users/szymonwronski/Library/Application Support/net.imput.helium/Default/GPUCache/index  # 263KB
+/Users/szymonwronski/Library/Application Support/net.imput.helium/Default/GPUCache/data_0  # 45KB
+/Users/szymonwronski/Library/Application Support/net.imput.helium/Default/GPUCache/data_1  # 270KB
+/Users/szymonwronski/Library/Application Support/net.imput.helium/Default/GPUCache/data_2  # 1.1MB
+/Users/szymonwronski/Library/Application Support/net.imput.helium/Default/GPUCache/data_3  # 4.2MB
+/Users/szymonwronski/Library/Application Support/net.imput.helium/GPUPersistentCache/GPUCache/QWZNAOYHL65B55LT7OUNLATKWXW2W6OC  # 0B
+/Users/szymonwronski/Library/Application Support/net.imput.helium/component_crx_cache/metadata.json  # 1KB
+/Users/szymonwronski/Library/Application Support/net.imput.helium/GraphiteDawnCache/data_0  # 82KB
+/Users/szymonwronski/Library/Application Support/net.imput.helium/GraphiteDawnCache/data_1  # 1.1MB
+/Users/szymonwronski/Library/Application Support/net.imput.helium/GraphiteDawnCache/data_2  # 2.1MB
+/Users/szymonwronski/Library/Application Support/net.imput.helium/GraphiteDawnCache/data_3  # 8.4MB
+/Users/szymonwronski/Library/Application Support/net.imput.helium/GraphiteDawnCache/f_000001  # 17KB
+/Users/szymonwronski/Library/Application Support/net.imput.helium/GraphiteDawnCache/f_000005  # 18KB
+/Users/szymonwronski/Library/Application Support/net.imput.helium/GraphiteDawnCache/f_000006  # 22KB
+/Users/szymonwronski/Library/Application Support/net.imput.helium/GraphiteDawnCache/f_000008  # 17KB
+/Users/szymonwronski/Library/Application Support/net.imput.helium/GraphiteDawnCache/f_00000a  # 17KB
+/Users/szymonwronski/Library/Application Support/net.imput.helium/GraphiteDawnCache/f_00000b  # 19KB
+/Users/szymonwronski/Library/Application Support/net.imput.helium/GraphiteDawnCache/f_00000d  # 17KB
+/Users/szymonwronski/Library/Application Support/net.imput.helium/GraphiteDawnCache/f_000010  # 17KB
+/Users/szymonwronski/Library/Application Support/net.imput.helium/GraphiteDawnCache/f_000013  # 17KB
+/Users/szymonwronski/Library/Application Support/net.imput.helium/GraphiteDawnCache/f_000017  # 17KB
+/Users/szymonwronski/Library/Application Support/net.imput.helium/GraphiteDawnCache/f_000021  # 17KB
+/Users/szymonwronski/Library/Application Support/net.imput.helium/GraphiteDawnCache/f_000022  # 22KB
+/Users/szymonwronski/Library/Application Support/net.imput.helium/GraphiteDawnCache/f_000023  # 17KB
+/Users/szymonwronski/Library/Application Support/net.imput.helium/GraphiteDawnCache/f_000024  # 20KB
+/Users/szymonwronski/Library/Application Support/net.imput.helium/GraphiteDawnCache/f_000025  # 20KB
+/Users/szymonwronski/Library/Application Support/net.imput.helium/GraphiteDawnCache/f_000026  # 17KB
+/Users/szymonwronski/Library/Application Support/net.imput.helium/GraphiteDawnCache/f_000027  # 19KB
+/Users/szymonwronski/Library/Application Support/net.imput.helium/GraphiteDawnCache/f_000028  # 22KB
+/Users/szymonwronski/Library/Application Support/net.imput.helium/GraphiteDawnCache/f_000029  # 19KB
+/Users/szymonwronski/Library/Application Support/net.imput.helium/GraphiteDawnCache/f_00002a  # 22KB
+/Users/szymonwronski/Library/Application Support/net.imput.helium/GraphiteDawnCache/f_00002b  # 17KB
+/Users/szymonwronski/Library/Application Support/net.imput.helium/GraphiteDawnCache/f_00002c  # 17KB
+/Users/szymonwronski/Library/Application Support/net.imput.helium/GraphiteDawnCache/f_00002d  # 17KB
+/Users/szymonwronski/Library/Application Support/net.imput.helium/GraphiteDawnCache/f_00002e  # 18KB
+/Users/szymonwronski/Library/Application Support/net.imput.helium/GraphiteDawnCache/f_00002f  # 18KB
+/Users/szymonwronski/Library/Application Support/net.imput.helium/GraphiteDawnCache/f_000030  # 17KB
+/Users/szymonwronski/Library/Application Support/net.imput.helium/GraphiteDawnCache/f_000031  # 17KB
+/Users/szymonwronski/Library/Application Support/net.imput.helium/GraphiteDawnCache/f_000032  # 18KB
+/Users/szymonwronski/Library/Application Support/net.imput.helium/GraphiteDawnCache/f_000033  # 17KB
+/Users/szymonwronski/Library/Application Support/net.imput.helium/GraphiteDawnCache/f_000034  # 17KB
+/Users/szymonwronski/Library/Application Support/net.imput.helium/GraphiteDawnCache/f_000035  # 17KB
+/Users/szymonwronski/Library/Application Support/net.imput.helium/GraphiteDawnCache/f_000036  # 18KB
+/Users/szymonwronski/Library/Application Support/net.imput.helium/GraphiteDawnCache/f_000037  # 17KB
+/Users/szymonwronski/Library/Application Support/net.imput.helium/GraphiteDawnCache/f_000038  # 17KB
+/Users/szymonwronski/Library/Application Support/net.imput.helium/GraphiteDawnCache/f_000039  # 18KB
+/Users/szymonwronski/Library/Application Support/net.imput.helium/GraphiteDawnCache/f_00003a  # 23KB
+/Users/szymonwronski/Library/Application Support/net.imput.helium/GraphiteDawnCache/f_00003b  # 23KB
+/Users/szymonwronski/Library/Application Support/net.imput.helium/GraphiteDawnCache/f_00003c  # 17KB
+/Users/szymonwronski/Library/Application Support/net.imput.helium/GraphiteDawnCache/f_00003d  # 17KB
+/Users/szymonwronski/Library/Application Support/net.imput.helium/GraphiteDawnCache/f_00003e  # 17KB
+/Users/szymonwronski/Library/Application Support/net.imput.helium/GraphiteDawnCache/f_00003f  # 17KB
+/Users/szymonwronski/Library/Application Support/net.imput.helium/GraphiteDawnCache/f_000040  # 18KB
+/Users/szymonwronski/Library/Application Support/net.imput.helium/GraphiteDawnCache/f_000041  # 23KB
+/Users/szymonwronski/Library/Application Support/net.imput.helium/GraphiteDawnCache/f_000042  # 17KB
+/Users/szymonwronski/Library/Application Support/net.imput.helium/GraphiteDawnCache/f_000043  # 22KB
+/Users/szymonwronski/Library/Application Support/net.imput.helium/GraphiteDawnCache/f_000044  # 22KB
+/Users/szymonwronski/Library/Application Support/net.imput.helium/GraphiteDawnCache/f_000045  # 17KB
+/Users/szymonwronski/Library/Application Support/net.imput.helium/GraphiteDawnCache/f_000046  # 17KB
+/Users/szymonwronski/Library/Application Support/net.imput.helium/GraphiteDawnCache/f_000047  # 17KB
+/Users/szymonwronski/Library/Application Support/net.imput.helium/GraphiteDawnCache/f_000048  # 18KB
+/Users/szymonwronski/Library/Application Support/net.imput.helium/GraphiteDawnCache/f_000049  # 20KB
+/Users/szymonwronski/Library/Application Support/net.imput.helium/GraphiteDawnCache/f_00004a  # 18KB
+/Users/szymonwronski/Library/Application Support/net.imput.helium/GraphiteDawnCache/f_00004b  # 17KB
+/Users/szymonwronski/Library/Application Support/net.imput.helium/GraphiteDawnCache/f_00004c  # 20KB
+/Users/szymonwronski/Library/Application Support/net.imput.helium/GraphiteDawnCache/f_00004d  # 17KB
+/Users/szymonwronski/Library/Application Support/net.imput.helium/GraphiteDawnCache/f_00004e  # 17KB
+/Users/szymonwronski/Library/Application Support/net.imput.helium/GraphiteDawnCache/f_00004f  # 18KB
+/Users/szymonwronski/Library/Application Support/net.imput.helium/GraphiteDawnCache/f_000050  # 17KB
+/Users/szymonwronski/Library/Application Support/net.imput.helium/GraphiteDawnCache/f_000051  # 17KB
+/Users/szymonwronski/Library/Application Support/net.imput.helium/GraphiteDawnCache/f_000052  # 17KB
+/Users/szymonwronski/Library/Application Support/net.imput.helium/GraphiteDawnCache/f_000053  # 17KB
+/Users/szymonwronski/Library/Application Support/net.imput.helium/GraphiteDawnCache/f_000054  # 18KB
+/Users/szymonwronski/Library/Application Support/net.imput.helium/GraphiteDawnCache/f_000055  # 17KB
+/Users/szymonwronski/Library/Application Support/net.imput.helium/GraphiteDawnCache/f_000056  # 17KB
+/Users/szymonwronski/Library/Application Support/net.imput.helium/GraphiteDawnCache/f_000057  # 19KB
+/Users/szymonwronski/Library/Application Support/net.imput.helium/GraphiteDawnCache/f_000058  # 17KB
+/Users/szymonwronski/Library/Application Support/net.imput.helium/GraphiteDawnCache/f_000059  # 17KB
+/Users/szymonwronski/Library/Application Support/net.imput.helium/GraphiteDawnCache/f_00005a  # 17KB
+/Users/szymonwronski/Library/Application Support/net.imput.helium/GraphiteDawnCache/f_00005b  # 17KB
+/Users/szymonwronski/Library/Application Support/net.imput.helium/GraphiteDawnCache/f_00005c  # 18KB
+/Users/szymonwronski/Library/Application Support/net.imput.helium/GraphiteDawnCache/f_00005d  # 18KB
+/Users/szymonwronski/Library/Application Support/net.imput.helium/GraphiteDawnCache/f_00005e  # 18KB
+/Users/szymonwronski/Library/Application Support/net.imput.helium/GraphiteDawnCache/f_00005f  # 22KB
+/Users/szymonwronski/Library/Application Support/net.imput.helium/GraphiteDawnCache/f_000060  # 17KB
+/Users/szymonwronski/Library/Application Support/net.imput.helium/GraphiteDawnCache/f_000061  # 18KB
+/Users/szymonwronski/Library/Application Support/net.imput.helium/GraphiteDawnCache/f_000062  # 17KB
+/Users/szymonwronski/Library/Application Support/net.imput.helium/GraphiteDawnCache/f_000063  # 17KB
+/Users/szymonwronski/Library/Application Support/net.imput.helium/GraphiteDawnCache/f_000064  # 20KB
+/Users/szymonwronski/Library/Application Support/net.imput.helium/GraphiteDawnCache/index  # 263KB
+/Users/szymonwronski/Library/Caches/zen/Profiles  # 1.15GB, counted under /Users/szymonwronski/Library/Caches/zen
+
+=== Developer tools ===
+/Users/szymonwronski/.npm/_cacache/tmp  # 0B
+/Users/szymonwronski/.npm/_cacache/index-v5  # 4.0MB
+/Users/szymonwronski/.npm/_cacache/content-v2  # 505.1MB
+/Users/szymonwronski/.npm/_npx/1415fee72ff6294b  # 1.7MB
+/Users/szymonwronski/.npm/_npx/15c61037b1978c83  # 14.5MB
+/Users/szymonwronski/.npm/_npx/d66c5096c7023bfb  # 76.4MB
+/Users/szymonwronski/.npm/_logs/2026-09-22T21_52_31_695Z-debug-0.log  # 2KB
+/Users/szymonwronski/.npm/_logs/2026-09-22T21_52_31_883Z-debug-0.log  # 2KB
+/Users/szymonwronski/.npm/_logs/2026-09-22T21_52_34_194Z-debug-0.log  # 2KB
+/Users/szymonwronski/.npm/_logs/2026-09-22T22_45_24_764Z-debug-0.log  # 2KB
+/Users/szymonwronski/.npm/_logs/2026-09-22T22_45_26_619Z-debug-0.log  # 2KB
+/Users/szymonwronski/.npm/_logs/2026-09-22T22_45_26_909Z-debug-0.log  # 2KB
+/Users/szymonwronski/.npm/_logs/2026-09-22T22_45_31_199Z-debug-0.log  # 2KB
+/Users/szymonwronski/.npm/_logs/2026-09-22T22_45_51_753Z-debug-0.log  # 2KB
+/Users/szymonwronski/.npm/_logs/2026-09-22T22_45_53_141Z-debug-0.log  # 2KB
+/Users/szymonwronski/.npm/_logs/2026-09-22T22_46_25_842Z-debug-0.log  # 2KB
+/Users/szymonwronski/.npm/_logs/2026-09-22T22_46_25_974Z-debug-0.log  # 2KB
+/Users/szymonwronski/.bun/install/cache/003f1e97d839c968.npm  # 72KB
+/Users/szymonwronski/.bun/install/cache/006d88d5c3632fae.npm  # 17KB
+/Users/szymonwronski/.bun/install/cache/020323e46b33f9e5.npm  # 57KB
+/Users/szymonwronski/.bun/install/cache/025a971c0dd5b658.npm  # 9KB
+/Users/szymonwronski/.bun/install/cache/02aca3f90f8bd98e.npm  # 33KB
+/Users/szymonwronski/.bun/install/cache/046a1b2753a6c525.npm  # 20KB
+/Users/szymonwronski/.bun/install/cache/058521117d79b56d.npm  # 5KB
+/Users/szymonwronski/.bun/install/cache/062052688124b1c5.npm  # 401KB
+/Users/szymonwronski/.bun/install/cache/074773cdbc93b991.npm  # 391KB
+/Users/szymonwronski/.bun/install/cache/094e32c961613beb.npm  # 807KB
+/Users/szymonwronski/.bun/install/cache/0a94a37f7b0b5423.npm  # 45KB
+/Users/szymonwronski/.bun/install/cache/0b80dd5be35bde53.npm  # 6KB
+/Users/szymonwronski/.bun/install/cache/0c958aeb34baca4e.npm  # 48KB
+/Users/szymonwronski/.bun/install/cache/12f348c119560d99.npm  # 578KB
+/Users/szymonwronski/.bun/install/cache/13c442d0c7891488.npm  # 20KB
+/Users/szymonwronski/.bun/install/cache/14c3ca19a2c22f4e.npm  # 11KB
+/Users/szymonwronski/.bun/install/cache/15bf2ae6ab5cfc05.npm  # 10KB
+/Users/szymonwronski/.bun/install/cache/1686a53017befe80.npm  # 51KB
+/Users/szymonwronski/.bun/install/cache/16be13ccd5ab69af.npm  # 5KB
+/Users/szymonwronski/.bun/install/cache/17e0225924bb832e.npm  # 9KB
+/Users/szymonwronski/.bun/install/cache/180fe99dfe131cc6.npm  # 49KB
+/Users/szymonwronski/.bun/install/cache/181c13368db25afd.npm  # 75KB
+/Users/szymonwronski/.bun/install/cache/1a894c8dd47678e8.npm  # 20KB
+/Users/szymonwronski/.bun/install/cache/1c062ca9309f5f2a.npm  # 26KB
+/Users/szymonwronski/.bun/install/cache/1f83e8e03c6d1043.npm  # 8KB
+/Users/szymonwronski/.bun/install/cache/1f9aeddc022615a6.npm  # 7KB
+/Users/szymonwronski/.bun/install/cache/21875b795e87bde5.npm  # 13KB
+/Users/szymonwronski/.bun/install/cache/21d0f19baf9c0455.npm  # 2KB
+/Users/szymonwronski/.bun/install/cache/2343c30f225215eb.npm  # 268KB
+/Users/szymonwronski/.bun/install/cache/238f92107b858448.npm  # 7KB
+/Users/szymonwronski/.bun/install/cache/23e24aae82408f55.npm  # 49KB
+/Users/szymonwronski/.bun/install/cache/246a877c64d0673d.npm  # 33KB
+/Users/szymonwronski/.bun/install/cache/25cf800b852b06c9.npm  # 17KB
+/Users/szymonwronski/.bun/install/cache/27aa35da31778348.npm  # 7KB
+/Users/szymonwronski/.bun/install/cache/29743452efb4ef68.npm  # 59KB
+/Users/szymonwronski/.bun/install/cache/2acf2567dd91ffde.npm  # 20KB
+/Users/szymonwronski/.bun/install/cache/2af900a7d749645d.npm  # 285KB
+/Users/szymonwronski/.bun/install/cache/2b1f2042f254d394.npm  # 436KB
+/Users/szymonwronski/.bun/install/cache/2b678df253e900c4.npm  # 253KB
+/Users/szymonwronski/.bun/install/cache/2cd17718d2a6bb88.npm  # 73KB
+/Users/szymonwronski/.bun/install/cache/2e2ea1f166695937.npm  # 17KB
+/Users/szymonwronski/.bun/install/cache/2e52ed9a3bea4508.npm  # 8KB
+/Users/szymonwronski/.bun/install/cache/2eb0c2155679176b.npm  # 51KB
+/Users/szymonwronski/.bun/install/cache/2f9b14351bcc44e7.npm  # 529KB
+/Users/szymonwronski/.bun/install/cache/2fac156ef9dee4e4.npm  # 7KB
+/Users/szymonwronski/.bun/install/cache/2fe5aa5f141dc927.npm  # 68KB
+/Users/szymonwronski/.bun/install/cache/31886932c05a23f9.npm  # 75KB
+/Users/szymonwronski/.bun/install/cache/32613fe52ce4ff8d.npm  # 6KB
+/Users/szymonwronski/.bun/install/cache/32d538c87375b87e.npm  # 27KB
+/Users/szymonwronski/.bun/install/cache/359ad55130cefaec.npm  # 13KB
+/Users/szymonwronski/.bun/install/cache/35a2e8465e25203c.npm  # 575KB
+/Users/szymonwronski/.bun/install/cache/36c185f99d7d3fdc.npm  # 35KB
+/Users/szymonwronski/.bun/install/cache/36f7b17a9e83997a.npm  # 128KB
+/Users/szymonwronski/.bun/install/cache/380f0b403d247162.npm  # 15KB
+/Users/szymonwronski/.bun/install/cache/38898af6782d41b8.npm  # 20KB
+/Users/szymonwronski/.bun/install/cache/38ed3d0fdb46430f.npm  # 92KB
+/Users/szymonwronski/.bun/install/cache/393db5268d5a2f91.npm  # 843KB
+/Users/szymonwronski/.bun/install/cache/3b42ae1f703232ac.npm  # 41KB
+/Users/szymonwronski/.bun/install/cache/3b92c349bcb4015a.npm  # 11KB
+/Users/szymonwronski/.bun/install/cache/3fbd62f77563800a.npm  # 7KB
+/Users/szymonwronski/.bun/install/cache/404ca6b4a654eb88.npm  # 577KB
+/Users/szymonwronski/.bun/install/cache/40e17bf1fefdefa4.npm  # 7KB
+/Users/szymonwronski/.bun/install/cache/4169a5a0d92f0f0b.npm  # 6KB
+/Users/szymonwronski/.bun/install/cache/41c4bace8dff46ec.npm  # 278KB
+/Users/szymonwronski/.bun/install/cache/42520cb79f242688.npm  # 73KB
+/Users/szymonwronski/.bun/install/cache/42d843cfa1cbf500.npm  # 36KB
+/Users/szymonwronski/.bun/install/cache/44539798df76fc56.npm  # 74KB
+/Users/szymonwronski/.bun/install/cache/4493749969486f98.npm  # 10KB
+/Users/szymonwronski/.bun/install/cache/44c03cdd555a64ec.npm  # 14KB
+/Users/szymonwronski/.bun/install/cache/451212b80ea2a369.npm  # 20KB
+/Users/szymonwronski/.bun/install/cache/47a6e5c3c025a0e8.npm  # 5KB
+/Users/szymonwronski/.bun/install/cache/47af460bf79b6cf7.npm  # 272KB
+/Users/szymonwronski/.bun/install/cache/47b53f04807cf968.npm  # 9KB
+/Users/szymonwronski/.bun/install/cache/488fd7b5d5c4b4a4.npm  # 12KB
+/Users/szymonwronski/.bun/install/cache/48fe784ea0b25717.npm  # 4KB
+/Users/szymonwronski/.bun/install/cache/4a7236e9f63065f1.npm  # 12KB
+/Users/szymonwronski/.bun/install/cache/4cc32f539a9ae8eb.npm  # 14KB
+/Users/szymonwronski/.bun/install/cache/4ce3d1b0e33847cd.npm  # 17KB
+/Users/szymonwronski/.bun/install/cache/4d642d7c8835960a.npm  # 41KB
+/Users/szymonwronski/.bun/install/cache/4f8ac0c439aab54a.npm  # 504KB
+/Users/szymonwronski/.bun/install/cache/5004ef888be58bab.npm  # 273KB
+/Users/szymonwronski/.bun/install/cache/50174953d8389e98.npm  # 201KB
+/Users/szymonwronski/.bun/install/cache/5032a0d461842718.npm  # 11KB
+/Users/szymonwronski/.bun/install/cache/53877530607d3bc9.npm  # 387KB
+/Users/szymonwronski/.bun/install/cache/54a3ef056cc9f84a.npm  # 1.3MB
+/Users/szymonwronski/.bun/install/cache/553ae3759dadf005.npm  # 109KB
+/Users/szymonwronski/.bun/install/cache/5584fa9d7d6018ca.npm  # 3KB
+/Users/szymonwronski/.bun/install/cache/55e05cdee0ffb54a.npm  # 42KB
+/Users/szymonwronski/.bun/install/cache/56af62946ba6e352.npm  # 1.1MB
+/Users/szymonwronski/.bun/install/cache/57eb3ad5572586d5.npm  # 20KB
+/Users/szymonwronski/.bun/install/cache/59106f7a24ecd355.npm  # 10KB
+/Users/szymonwronski/.bun/install/cache/5c7cc85aa7a1ef50.npm  # 12KB
+/Users/szymonwronski/.bun/install/cache/5c966bc9861aad64.npm  # 75KB
+/Users/szymonwronski/.bun/install/cache/5cb26bd172a3d52b.npm  # 4KB
+/Users/szymonwronski/.bun/install/cache/5d2185ccf9081b87.npm  # 9KB
+/Users/szymonwronski/.bun/install/cache/5e1ded69c751dde4.npm  # 5KB
+/Users/szymonwronski/.bun/install/cache/5e3bdc29a272563b.npm  # 5KB
+/Users/szymonwronski/.bun/install/cache/5ef2cebf42b336d1.npm  # 57KB
+/Users/szymonwronski/.bun/install/cache/5f785b4dfdc36cfc.npm  # 4KB
+/Users/szymonwronski/.bun/install/cache/607cb5b117864157.npm  # 7KB
+/Users/szymonwronski/.bun/install/cache/60e90efb719a347f.npm  # 60KB
+/Users/szymonwronski/.bun/install/cache/6265852b2c80259f.npm  # 1.5MB
+/Users/szymonwronski/.bun/install/cache/641936111f9362ae.npm  # 33KB
+/Users/szymonwronski/.bun/install/cache/6613189b6fb0bd45.npm  # 29KB
+/Users/szymonwronski/.bun/install/cache/66548769fa3b187b.npm  # 1.4MB
+/Users/szymonwronski/.bun/install/cache/66b061f01a164c89.npm  # 7KB
+/Users/szymonwronski/.bun/install/cache/68cf7177d3ffd17d.npm  # 17KB
+/Users/szymonwronski/.bun/install/cache/6aa0a25d42007e9d.npm  # 17KB
+/Users/szymonwronski/.bun/install/cache/6af4fedcc1025b18.npm  # 12KB
+/Users/szymonwronski/.bun/install/cache/6bbc851aeab7159b.npm  # 10KB
+/Users/szymonwronski/.bun/install/cache/6dce08ca83986154.npm  # 7KB
+/Users/szymonwronski/.bun/install/cache/6efffb22033b0c92.npm  # 7KB
+/Users/szymonwronski/.bun/install/cache/7006d6d60f8aa8e8.npm  # 10KB
+/Users/szymonwronski/.bun/install/cache/709ff746db9c015a.npm  # 8KB
+/Users/szymonwronski/.bun/install/cache/70a65091b656a568.npm  # 286KB
+/Users/szymonwronski/.bun/install/cache/72101fe096a5b634.npm  # 187KB
+/Users/szymonwronski/.bun/install/cache/74f19d4b04978a3e.npm  # 18KB
+/Users/szymonwronski/.bun/install/cache/779e8e182ae73087.npm  # 69KB
+/Users/szymonwronski/.bun/install/cache/77ab183d5e62723a.npm  # 10KB
+/Users/szymonwronski/.bun/install/cache/781a9b32eeca4a38.npm  # 26KB
+/Users/szymonwronski/.bun/install/cache/78fa094710690428.npm  # 454KB
+/Users/szymonwronski/.bun/install/cache/792c793ae1ff3e93.npm  # 7KB
+/Users/szymonwronski/.bun/install/cache/795af4a611b81940.npm  # 74KB
+/Users/szymonwronski/.bun/install/cache/79f8b8e4e4be897e.npm  # 7KB
+/Users/szymonwronski/.bun/install/cache/7a203a69e516451f.npm  # 4KB
+/Users/szymonwronski/.bun/install/cache/7a3e099f5fb5f5df.npm  # 150KB
+/Users/szymonwronski/.bun/install/cache/7a93b9bca2a25890.npm  # 4KB
+/Users/szymonwronski/.bun/install/cache/7c24a5b4fe488973.npm  # 4KB
+/Users/szymonwronski/.bun/install/cache/7c5349487f142e0a.npm  # 12KB
+/Users/szymonwronski/.bun/install/cache/7da09dc17a639233.npm  # 353KB
+/Users/szymonwronski/.bun/install/cache/7db8218e35133a2d.npm  # 415KB
+/Users/szymonwronski/.bun/install/cache/7ebc3fdbd8b5f179.npm  # 17KB
+/Users/szymonwronski/.bun/install/cache/81084ceccace615c.npm  # 108KB
+/Users/szymonwronski/.bun/install/cache/83d0dd26bf2aae0b.npm  # 36KB
+/Users/szymonwronski/.bun/install/cache/8502db7a254a6f4a.npm  # 10KB
+/Users/szymonwronski/.bun/install/cache/85e5d77c4f742e11.npm  # 271KB
+/Users/szymonwronski/.bun/install/cache/8689f0a0410e50ae.npm  # 13KB
+/Users/szymonwronski/.bun/install/cache/86a03dfb88b08c74.npm  # 12KB
+/Users/szymonwronski/.bun/install/cache/891aa04e2ef0d95e.npm  # 43KB
+/Users/szymonwronski/.bun/install/cache/8a224ba9ed6df81a.npm  # 114KB
+/Users/szymonwronski/.bun/install/cache/8aaa3387f0f2c964.npm  # 14KB
+/Users/szymonwronski/.bun/install/cache/8b52221d19971f22.npm  # 18KB
+/Users/szymonwronski/.bun/install/cache/8bd6c222241f4f5f.npm  # 47KB
+/Users/szymonwronski/.bun/install/cache/8db6f469776e0460.npm  # 4KB
+/Users/szymonwronski/.bun/install/cache/8db92bb252305edc.npm  # 74KB
+/Users/szymonwronski/.bun/install/cache/8df5a285add5e9ce.npm  # 571KB
+/Users/szymonwronski/.bun/install/cache/8e33520d983e430c.npm  # 273KB
+/Users/szymonwronski/.bun/install/cache/8e9a62ca2b88ecca.npm  # 234KB
+/Users/szymonwronski/.bun/install/cache/8f97c05ee8237930.npm  # 61KB
+/Users/szymonwronski/.bun/install/cache/8fba5a432e513124.npm  # 582KB
+/Users/szymonwronski/.bun/install/cache/91140b6d6fac9ded.npm  # 189KB
+/Users/szymonwronski/.bun/install/cache/9193790b0c74f639.npm  # 31KB
+/Users/szymonwronski/.bun/install/cache/9399d9585f2f5401.npm  # 5KB
+/Users/szymonwronski/.bun/install/cache/94c49019ded8e790.npm  # 1.2MB
+/Users/szymonwronski/.bun/install/cache/9631f0abea94b855.npm  # 7KB
+/Users/szymonwronski/.bun/install/cache/967d671735e6461c.npm  # 33KB
+/Users/szymonwronski/.bun/install/cache/974c887e0fcf986f.npm  # 92KB
+/Users/szymonwronski/.bun/install/cache/97fc262b09f3296c.npm  # 434KB
+/Users/szymonwronski/.bun/install/cache/99cd34fe6b6511f9.npm  # 7KB
+/Users/szymonwronski/.bun/install/cache/9a3d1ddd9de72417.npm  # 3KB
+/Users/szymonwronski/.bun/install/cache/9cd297d866a14ac3.npm  # 11KB
+/Users/szymonwronski/.bun/install/cache/9e46115f377637bb.npm  # 32KB
+/Users/szymonwronski/.bun/install/cache/9e63ee6cb4316fac.npm  # 3KB
+/Users/szymonwronski/.bun/install/cache/9f363a09867b6aeb.npm  # 95KB
+/Users/szymonwronski/.bun/install/cache/9f38571c3f48acbd.npm  # 58KB
+/Users/szymonwronski/.bun/install/cache/9f8c3bfbd55d08b5.npm  # 8KB
+/Users/szymonwronski/.bun/install/cache/9fcc0daaf612ebad.npm  # 167KB
+/Users/szymonwronski/.bun/install/cache/@babel  # 10.4MB
+/Users/szymonwronski/.bun/install/cache/@biomejs  # 45.8MB
+/Users/szymonwronski/.bun/install/cache/@clack  # 520KB
+/Users/szymonwronski/.bun/install/cache/@emnapi  # 5.8MB
+/Users/szymonwronski/.bun/install/cache/@jridgewell  # 872KB
+/Users/szymonwronski/.bun/install/cache/@liyang8246  # 41KB
+/Users/szymonwronski/.bun/install/cache/@napi-rs  # 2.2MB
+/Users/szymonwronski/.bun/install/cache/@neodrag  # 647KB
+/Users/szymonwronski/.bun/install/cache/@oozcitak  # 2.4MB
+/Users/szymonwronski/.bun/install/cache/@oxc-parser  # 2.2MB
+/Users/szymonwronski/.bun/install/cache/@oxc-project  # 115KB
+/Users/szymonwronski/.bun/install/cache/@rolldown  # 16.9MB
+/Users/szymonwronski/.bun/install/cache/@sec-ant  # 106KB
+/Users/szymonwronski/.bun/install/cache/@sindresorhus  # 25KB
+/Users/szymonwronski/.bun/install/cache/@solid-primitives  # 319KB
+/Users/szymonwronski/.bun/install/cache/@tailwindcss  # 3.2MB
+/Users/szymonwronski/.bun/install/cache/@tanstack  # 82.9MB
+/Users/szymonwronski/.bun/install/cache/@tybys  # 913KB
+/Users/szymonwronski/.bun/install/cache/@types  # 3.2MB
+/Users/szymonwronski/.bun/install/cache/@vitejs  # 66KB
+/Users/szymonwronski/.bun/install/cache/a0cf3e1f9697f30f.npm  # 57KB
+/Users/szymonwronski/.bun/install/cache/a15b378c424607e1.npm  # 6KB
+/Users/szymonwronski/.bun/install/cache/a38b2832b3f79db1.npm  # 7KB
+/Users/szymonwronski/.bun/install/cache/a390e84318353c35.npm  # 568KB
+/Users/szymonwronski/.bun/install/cache/a3cde11f1c52ee27.npm  # 7KB
+/Users/szymonwronski/.bun/install/cache/a4fbdfba77932c9b.npm  # 116KB
+/Users/szymonwronski/.bun/install/cache/a59d11a2445da4f2.npm  # 23KB
+/Users/szymonwronski/.bun/install/cache/a69439e2a9121540.npm  # 3KB
+/Users/szymonwronski/.bun/install/cache/a749cf60664d6098.npm  # 18KB
+/Users/szymonwronski/.bun/install/cache/a7759a0a17dfa625.npm  # 29KB
+/Users/szymonwronski/.bun/install/cache/a7bd8e6a9774d01d.npm  # 23KB
+/Users/szymonwronski/.bun/install/cache/a7ed53fae9a47526.npm  # 17KB
+/Users/szymonwronski/.bun/install/cache/a82aaaeb14795ffc.npm  # 23KB
+/Users/szymonwronski/.bun/install/cache/aa3d787c43e066ce.npm  # 14KB
+/Users/szymonwronski/.bun/install/cache/ae26c371a86c9ca2.npm  # 76KB
+/Users/szymonwronski/.bun/install/cache/aede15f5bda47a59.npm  # 75KB
+/Users/szymonwronski/.bun/install/cache/af78d1fe9df6136f.npm  # 11KB
+/Users/szymonwronski/.bun/install/cache/ansi-regex  # 0B
+/Users/szymonwronski/.bun/install/cache/ansi-regex@5.0.1@@@1  # 20KB
+/Users/szymonwronski/.bun/install/cache/ansi-styles  # 0B
+/Users/szymonwronski/.bun/install/cache/ansi-styles@4.3.0@@@1  # 33KB
+/Users/szymonwronski/.bun/install/cache/ansis  # 0B
+/Users/szymonwronski/.bun/install/cache/ansis@4.3.1@@@1  # 25KB
+/Users/szymonwronski/.bun/install/cache/anymatch  # 0B
+/Users/szymonwronski/.bun/install/cache/anymatch@3.1.3@@@1  # 20KB
+/Users/szymonwronski/.bun/install/cache/argparse  # 0B
+/Users/szymonwronski/.bun/install/cache/argparse@2.0.1@@@1  # 188KB
+/Users/szymonwronski/.bun/install/cache/async  # 0B
+/Users/szymonwronski/.bun/install/cache/async@3.2.6@@@1  # 1.1MB
+/Users/szymonwronski/.bun/install/cache/b31a9b7c6355f473.npm  # 4KB
+/Users/szymonwronski/.bun/install/cache/b4306f057c1f39f1.npm  # 205KB
+/Users/szymonwronski/.bun/install/cache/b4f18972f85032d0.npm  # 8KB
+/Users/szymonwronski/.bun/install/cache/b579cffa2ce4d215.npm  # 15KB
+/Users/szymonwronski/.bun/install/cache/b639904d560a127a.npm  # 197KB
+/Users/szymonwronski/.bun/install/cache/b69fd29ea565abeb.npm  # 23KB
+/Users/szymonwronski/.bun/install/cache/b762aca888d8881e.npm  # 37KB
+/Users/szymonwronski/.bun/install/cache/b799554d037a50e6.npm  # 28KB
+/Users/szymonwronski/.bun/install/cache/b89e8090da1ef9b4.npm  # 143KB
+/Users/szymonwronski/.bun/install/cache/b92209c023e1221d.npm  # 9KB
+/Users/szymonwronski/.bun/install/cache/b9b7c12a456ce247.npm  # 74KB
+/Users/szymonwronski/.bun/install/cache/b9e6a1668a1a43bd.npm  # 36KB
+/Users/szymonwronski/.bun/install/cache/ba2f3f1b5d8ac067.npm  # 46KB
+/Users/szymonwronski/.bun/install/cache/ba9bbaa853d22d19.npm  # 17KB
+/Users/szymonwronski/.bun/install/cache/babel-dead-code-elimination  # 0B
+/Users/szymonwronski/.bun/install/cache/babel-dead-code-elimination@1.0.12@@@1  # 53KB
+/Users/szymonwronski/.bun/install/cache/babel-plugin-react-compiler  # 0B
+/Users/szymonwronski/.bun/install/cache/babel-plugin-react-compiler@1.0.0@@@1  # 3.9MB
+/Users/szymonwronski/.bun/install/cache/balanced-match  # 0B
+/Users/szymonwronski/.bun/install/cache/balanced-match@1.0.2@@@1  # 20KB
+/Users/szymonwronski/.bun/install/cache/balanced-match@4.0.4@@@1  # 61KB
+/Users/szymonwronski/.bun/install/cache/baseline-browser-mapping  # 0B
+/Users/szymonwronski/.bun/install/cache/baseline-browser-mapping@2.11.22@@@1  # 156KB
+/Users/szymonwronski/.bun/install/cache/bb9a51eac63c6f09.npm  # 49KB
+/Users/szymonwronski/.bun/install/cache/bd76c41761dee6db.npm  # 8KB
+/Users/szymonwronski/.bun/install/cache/be938d4d4f554f42.npm  # 49KB
+/Users/szymonwronski/.bun/install/cache/beef193b76c5dd1a.npm  # 37KB
+/Users/szymonwronski/.bun/install/cache/bf72390720587d52.npm  # 7KB
+/Users/szymonwronski/.bun/install/cache/binary-extensions  # 0B
+/Users/szymonwronski/.bun/install/cache/binary-extensions@2.3.0@@@1  # 29KB
+/Users/szymonwronski/.bun/install/cache/brace-expansion  # 0B
+/Users/szymonwronski/.bun/install/cache/brace-expansion@2.1.4@@@1  # 33KB
+/Users/szymonwronski/.bun/install/cache/brace-expansion@5.0.9@@@1  # 111KB
+/Users/szymonwronski/.bun/install/cache/braces  # 0B
+/Users/szymonwronski/.bun/install/cache/braces@3.0.3@@@1  # 70KB
+/Users/szymonwronski/.bun/install/cache/browserslist  # 0B
+/Users/szymonwronski/.bun/install/cache/browserslist@4.28.9@@@1  # 102KB
+/Users/szymonwronski/.bun/install/cache/c00c560457d69c89.npm  # 38KB
+/Users/szymonwronski/.bun/install/cache/c06a01ed50054ce9.npm  # 585KB
+/Users/szymonwronski/.bun/install/cache/c074bee5f201f244.npm  # 9KB
+/Users/szymonwronski/.bun/install/cache/c0f60e7a98d5a1e5.npm  # 9KB
+/Users/szymonwronski/.bun/install/cache/c14888284ce61316.npm  # 81KB
+/Users/szymonwronski/.bun/install/cache/c17f4447ebe3362d.npm  # 379KB
+/Users/szymonwronski/.bun/install/cache/c1f886ac0e443a99.npm  # 18KB
+/Users/szymonwronski/.bun/install/cache/c2bbe490cb7ca54a.npm  # 269KB
+/Users/szymonwronski/.bun/install/cache/c2bd888e14beec9d.npm  # 271KB
+/Users/szymonwronski/.bun/install/cache/c30f981015e355ee.npm  # 773KB
+/Users/szymonwronski/.bun/install/cache/c36a944718659aba.npm  # 48KB
+/Users/szymonwronski/.bun/install/cache/c4aaa1e811689783.npm  # 17KB
+/Users/szymonwronski/.bun/install/cache/c4d32d940b34f9c8.npm  # 20KB
+/Users/szymonwronski/.bun/install/cache/c645f3d395a1c0e6.npm  # 14KB
+/Users/szymonwronski/.bun/install/cache/c6ca1ae13400838e.npm  # 29KB
+/Users/szymonwronski/.bun/install/cache/c6dec256d5ee0f02.npm  # 13KB
+/Users/szymonwronski/.bun/install/cache/c730695848bb27a7.npm  # 33KB
+/Users/szymonwronski/.bun/install/cache/c80dd1ff096ee85e.npm  # 33KB
+/Users/szymonwronski/.bun/install/cache/c8344ef6581b4809.npm  # 35KB
+/Users/szymonwronski/.bun/install/cache/c9ea4d68ca9d55d5.npm  # 579KB
+/Users/szymonwronski/.bun/install/cache/ca09ebb990b6168e.npm  # 20KB
+/Users/szymonwronski/.bun/install/cache/caniuse-lite  # 0B
+/Users/szymonwronski/.bun/install/cache/caniuse-lite@1.0.30001810@@@1  # 4.4MB
+/Users/szymonwronski/.bun/install/cache/cb3c8eb87d490407.npm  # 71KB
+/Users/szymonwronski/.bun/install/cache/cc5323811125151a.npm  # 255KB
+/Users/szymonwronski/.bun/install/cache/cd0b569c374f1a60.npm  # 2KB
+/Users/szymonwronski/.bun/install/cache/cd74405425c878f9.npm  # 355KB
+/Users/szymonwronski/.bun/install/cache/chalk  # 0B
+/Users/szymonwronski/.bun/install/cache/chalk@5.6.2@@@1  # 74KB
+/Users/szymonwronski/.bun/install/cache/chokidar  # 0B
+/Users/szymonwronski/.bun/install/cache/chokidar@3.6.0@@@1  # 102KB
+/Users/szymonwronski/.bun/install/cache/chokidar@5.0.0@@@1  # 98KB
+/Users/szymonwronski/.bun/install/cache/cliui  # 0B
+/Users/szymonwronski/.bun/install/cache/cliui@8.0.1@@@1  # 57KB
+/Users/szymonwronski/.bun/install/cache/clsx  # 0B
+/Users/szymonwronski/.bun/install/cache/clsx@2.1.1@@@1  # 41KB
+/Users/szymonwronski/.bun/install/cache/color-convert  # 0B
+/Users/szymonwronski/.bun/install/cache/color-convert@2.0.1@@@1  # 45KB
+/Users/szymonwronski/.bun/install/cache/color-name  # 0B
+/Users/szymonwronski/.bun/install/cache/color-name@1.1.4@@@1  # 20KB
+/Users/szymonwronski/.bun/install/cache/commander  # 0B
+/Users/szymonwronski/.bun/install/cache/commander@13.1.0@@@1  # 233KB
+/Users/szymonwronski/.bun/install/cache/consola  # 0B
+/Users/szymonwronski/.bun/install/cache/consola@3.4.2@@@1  # 430KB
+/Users/szymonwronski/.bun/install/cache/convert-source-map  # 0B
+/Users/szymonwronski/.bun/install/cache/convert-source-map@2.0.0@@@1  # 25KB
+/Users/szymonwronski/.bun/install/cache/cookie-es  # 0B
+/Users/szymonwronski/.bun/install/cache/cookie-es@3.1.1@@@1  # 41KB
+/Users/szymonwronski/.bun/install/cache/create  # 0B
+/Users/szymonwronski/.bun/install/cache/create@0.5.5@@@1  # 16KB
+/Users/szymonwronski/.bun/install/cache/cross-spawn  # 0B
+/Users/szymonwronski/.bun/install/cache/cross-spawn@7.0.6@@@1  # 41KB
+/Users/szymonwronski/.bun/install/cache/crossws  # 0B
+/Users/szymonwronski/.bun/install/cache/crossws@0.4.12@@@1  # 459KB
+/Users/szymonwronski/.bun/install/cache/crypto-random-string  # 0B
+/Users/szymonwronski/.bun/install/cache/crypto-random-string@4.0.0@@@1  # 29KB
+/Users/szymonwronski/.bun/install/cache/csstype  # 0B
+/Users/szymonwronski/.bun/install/cache/csstype@3.2.3@@@1  # 1.3MB
+/Users/szymonwronski/.bun/install/cache/d14ef6c13516daac.npm  # 57KB
+/Users/szymonwronski/.bun/install/cache/d18891f82352047f.npm  # 17KB
+/Users/szymonwronski/.bun/install/cache/d1fd20c01abaece4.npm  # 27KB
+/Users/szymonwronski/.bun/install/cache/d3ccd79c707dc4f0.npm  # 59KB
+/Users/szymonwronski/.bun/install/cache/d4dee489ead96865.npm  # 11KB
+/Users/szymonwronski/.bun/install/cache/d7058d590527682d.npm  # 17KB
+/Users/szymonwronski/.bun/install/cache/d85c164c3081e3cf.npm  # 17KB
+/Users/szymonwronski/.bun/install/cache/d89152439e8ae77a.npm  # 214KB
+/Users/szymonwronski/.bun/install/cache/da1ec69666b1e5fa.npm  # 31KB
+/Users/szymonwronski/.bun/install/cache/da442270b0016cfd.npm  # 13KB
+/Users/szymonwronski/.bun/install/cache/da5589220b634960.npm  # 6KB
+/Users/szymonwronski/.bun/install/cache/da7fd2a8271e44b3.npm  # 1.1MB
+/Users/szymonwronski/.bun/install/cache/dayjs  # 0B
+/Users/szymonwronski/.bun/install/cache/dayjs@1.11.23@@@1  # 2.0MB
+/Users/szymonwronski/.bun/install/cache/db0  # 0B
+/Users/szymonwronski/.bun/install/cache/db0@0.3.4@@@1  # 193KB
+/Users/szymonwronski/.bun/install/cache/db0b5d8011513194.npm  # 4KB
+/Users/szymonwronski/.bun/install/cache/db173760bbaba43b.npm  # 4KB
+/Users/szymonwronski/.bun/install/cache/dc335708d66ec1d6.npm  # 8KB
+/Users/szymonwronski/.bun/install/cache/dcfd45037615b3c4.npm  # 6KB
+/Users/szymonwronski/.bun/install/cache/dd4e9e0ce827e0bf.npm  # 58KB
+/Users/szymonwronski/.bun/install/cache/dd50661e6525bd35.npm  # 429KB
+/Users/szymonwronski/.bun/install/cache/de12ad67b8e4f5aa.npm  # 266KB
+/Users/szymonwronski/.bun/install/cache/de88ee85178290b8.npm  # 26KB
+/Users/szymonwronski/.bun/install/cache/deb27cf2988d7c34.npm  # 48KB
+/Users/szymonwronski/.bun/install/cache/debug  # 0B
+/Users/szymonwronski/.bun/install/cache/debug@4.4.3@@@1  # 61KB
+/Users/szymonwronski/.bun/install/cache/detect-libc  # 0B
+/Users/szymonwronski/.bun/install/cache/detect-libc@2.1.2@@@1  # 45KB
+/Users/szymonwronski/.bun/install/cache/diff  # 0B
+/Users/szymonwronski/.bun/install/cache/diff@7.0.0@@@1  # 688KB
+/Users/szymonwronski/.bun/install/cache/diff@8.0.4@@@1  # 905KB
+/Users/szymonwronski/.bun/install/cache/e2a4f52d3bff1f25.npm  # 18KB
+/Users/szymonwronski/.bun/install/cache/e2dea5906d609e3c.npm  # 7KB
+/Users/szymonwronski/.bun/install/cache/e324920d56e54915.npm  # 43KB
+/Users/szymonwronski/.bun/install/cache/e39e1bcdece1f2a2.npm  # 13KB
+/Users/szymonwronski/.bun/install/cache/e4fed0d0dcc518b7.npm  # 50KB
+/Users/szymonwronski/.bun/install/cache/e513907019d433d2.npm  # 46KB
+/Users/szymonwronski/.bun/install/cache/e59ff449d0aa58d1.npm  # 5KB
+/Users/szymonwronski/.bun/install/cache/e77a1e0eb98515ac.npm  # 5KB
+/Users/szymonwronski/.bun/install/cache/e9cdc6b088221384.npm  # 92KB
+/Users/szymonwronski/.bun/install/cache/eb52e4eb3e4a52eb.npm  # 9KB
+/Users/szymonwronski/.bun/install/cache/ede2ddcd70d94be8.npm  # 23KB
+/Users/szymonwronski/.bun/install/cache/ef1eda6a08a92d3f.npm  # 57KB
+/Users/szymonwronski/.bun/install/cache/ef25dae7bdea9fea.npm  # 44KB
+/Users/szymonwronski/.bun/install/cache/ejs  # 0B
+/Users/szymonwronski/.bun/install/cache/ejs@3.1.10@@@1  # 164KB
+/Users/szymonwronski/.bun/install/cache/electron-to-chromium  # 0B
+/Users/szymonwronski/.bun/install/cache/electron-to-chromium@1.5.427@@@1  # 229KB
+/Users/szymonwronski/.bun/install/cache/emoji-regex  # 0B
+/Users/szymonwronski/.bun/install/cache/emoji-regex@8.0.0@@@1  # 66KB
+/Users/szymonwronski/.bun/install/cache/enhanced-resolve  # 0B
+/Users/szymonwronski/.bun/install/cache/enhanced-resolve@5.24.5@@@1  # 553KB
+/Users/szymonwronski/.bun/install/cache/env-runner  # 0B
+/Users/szymonwronski/.bun/install/cache/env-runner@0.1.16@@@1  # 369KB
+/Users/szymonwronski/.bun/install/cache/escalade  # 0B
+/Users/szymonwronski/.bun/install/cache/escalade@3.2.0@@@1  # 49KB
+/Users/szymonwronski/.bun/install/cache/execa  # 0B
+/Users/szymonwronski/.bun/install/cache/execa@9.6.1@@@1  # 672KB
+/Users/szymonwronski/.bun/install/cache/exsolve  # 0B
+/Users/szymonwronski/.bun/install/cache/exsolve@1.1.1@@@1  # 66KB
+/Users/szymonwronski/.bun/install/cache/f06179b38ecf72b5.npm  # 4KB
+/Users/szymonwronski/.bun/install/cache/f2217c1ad6b097f2.npm  # 7KB
+/Users/szymonwronski/.bun/install/cache/f4a7d46692f153b5.npm  # 74KB
+/Users/szymonwronski/.bun/install/cache/f5a2047b1ba6753b.npm  # 6KB
+/Users/szymonwronski/.bun/install/cache/f5f20251a97a1ff5.npm  # 13KB
+/Users/szymonwronski/.bun/install/cache/f66190faffec6055.npm  # 13KB
+/Users/szymonwronski/.bun/install/cache/f6c71bd4a36073fd.npm  # 52KB
+/Users/szymonwronski/.bun/install/cache/f73abd367e6dc876.npm  # 7KB
+/Users/szymonwronski/.bun/install/cache/f7c43708a34bb696.npm  # 49KB
+/Users/szymonwronski/.bun/install/cache/f8bb17a2aadd9f46.npm  # 16KB
+/Users/szymonwronski/.bun/install/cache/f92716d114bb7433.npm  # 9KB
+/Users/szymonwronski/.bun/install/cache/fb75413632bc6c34.npm  # 592KB
+/Users/szymonwronski/.bun/install/cache/fbee8037aae2eb8f.npm  # 114KB
+/Users/szymonwronski/.bun/install/cache/fc7847044c60737a.npm  # 3KB
+/Users/szymonwronski/.bun/install/cache/fc7a9980478d5b18.npm  # 238KB
+/Users/szymonwronski/.bun/install/cache/fdir  # 0B
+/Users/szymonwronski/.bun/install/cache/fdir@6.5.0@@@1  # 70KB
+/Users/szymonwronski/.bun/install/cache/fe7bb759f6e2e502.npm  # 23KB
+/Users/szymonwronski/.bun/install/cache/febe957f3bc49b85.npm  # 13KB
+/Users/szymonwronski/.bun/install/cache/fed6a9a344c8acb1.npm  # 270KB
+/Users/szymonwronski/.bun/install/cache/fetchdts  # 0B
+/Users/szymonwronski/.bun/install/cache/fetchdts@0.1.7@@@1  # 115KB
+/Users/szymonwronski/.bun/install/cache/figures  # 0B
+/Users/szymonwronski/.bun/install/cache/figures@6.1.0@@@1  # 49KB
+/Users/szymonwronski/.bun/install/cache/filelist  # 0B
+/Users/szymonwronski/.bun/install/cache/filelist@1.0.6@@@1  # 33KB
+/Users/szymonwronski/.bun/install/cache/fill-range  # 0B
+/Users/szymonwronski/.bun/install/cache/fill-range@7.1.1@@@1  # 25KB
+/Users/szymonwronski/.bun/install/cache/fsevents  # 0B
+/Users/szymonwronski/.bun/install/cache/fsevents@2.3.3@@@1  # 184KB
+/Users/szymonwronski/.bun/install/cache/gensync  # 0B
+/Users/szymonwronski/.bun/install/cache/gensync@1.0.0-4049f5e8f1219d89@@@1  # 49KB
+/Users/szymonwronski/.bun/install/cache/get-caller-file  # 0B
+/Users/szymonwronski/.bun/install/cache/get-caller-file@2.0.5@@@1  # 25KB
+/Users/szymonwronski/.bun/install/cache/get-stream  # 0B
+/Users/szymonwronski/.bun/install/cache/get-stream@9.0.1@@@1  # 66KB
+/Users/szymonwronski/.bun/install/cache/glob  # 0B
+/Users/szymonwronski/.bun/install/cache/glob-parent  # 0B
+/Users/szymonwronski/.bun/install/cache/glob-parent@5.1.2@@@1  # 29KB
+/Users/szymonwronski/.bun/install/cache/glob@13.0.6@@@1  # 1.8MB
+/Users/szymonwronski/.bun/install/cache/goober  # 0B
+/Users/szymonwronski/.bun/install/cache/goober@2.1.19@@@1  # 287KB
+/Users/szymonwronski/.bun/install/cache/graceful-fs  # 0B
+/Users/szymonwronski/.bun/install/cache/graceful-fs@4.2.11@@@1  # 53KB
+/Users/szymonwronski/.bun/install/cache/h3  # 0B
+/Users/szymonwronski/.bun/install/cache/h3@2.0.1-8bc09c44e267e26f@@@1  # 532KB
+/Users/szymonwronski/.bun/install/cache/h3@2.0.1-a6bc7fb1a9d8a190@@@1  # 532KB
+/Users/szymonwronski/.bun/install/cache/hookable  # 0B
+/Users/szymonwronski/.bun/install/cache/hookable@6.1.1@@@1  # 37KB
+/Users/szymonwronski/.bun/install/cache/httpxy  # 0B
+/Users/szymonwronski/.bun/install/cache/httpxy@0.5.5@@@1  # 74KB
+/Users/szymonwronski/.bun/install/cache/human-signals  # 0B
+/Users/szymonwronski/.bun/install/cache/human-signals@8.0.1@@@1  # 49KB
+/Users/szymonwronski/.bun/install/cache/ignore  # 0B
+/Users/szymonwronski/.bun/install/cache/ignore@7.0.9@@@1  # 123KB
+/Users/szymonwronski/.bun/install/cache/is-binary-path  # 0B
+/Users/szymonwronski/.bun/install/cache/is-binary-path@2.1.0@@@1  # 20KB
+/Users/szymonwronski/.bun/install/cache/is-extglob  # 0B
+/Users/szymonwronski/.bun/install/cache/is-extglob@2.1.1@@@1  # 16KB
+/Users/szymonwronski/.bun/install/cache/is-fullwidth-code-point  # 0B
+/Users/szymonwronski/.bun/install/cache/is-fullwidth-code-point@3.0.0@@@1  # 20KB
+/Users/szymonwronski/.bun/install/cache/is-glob  # 0B
+/Users/szymonwronski/.bun/install/cache/is-glob@4.0.3@@@1  # 20KB
+/Users/szymonwronski/.bun/install/cache/is-number  # 0B
+/Users/szymonwronski/.bun/install/cache/is-number@7.0.0@@@1  # 20KB
+/Users/szymonwronski/.bun/install/cache/is-plain-obj  # 0B
+/Users/szymonwronski/.bun/install/cache/is-plain-obj@4.1.0@@@1  # 20KB
+/Users/szymonwronski/.bun/install/cache/is-stream  # 0B
+/Users/szymonwronski/.bun/install/cache/is-stream@3.0.0@@@1  # 20KB
+/Users/szymonwronski/.bun/install/cache/is-stream@4.0.1@@@1  # 20KB
+/Users/szymonwronski/.bun/install/cache/is-unicode-supported  # 0B
+/Users/szymonwronski/.bun/install/cache/is-unicode-supported@2.1.0@@@1  # 20KB
+/Users/szymonwronski/.bun/install/cache/isbot  # 0B
+/Users/szymonwronski/.bun/install/cache/isbot@5.2.2@@@1  # 70KB
+/Users/szymonwronski/.bun/install/cache/isexe  # 0B
+/Users/szymonwronski/.bun/install/cache/isexe@2.0.0@@@1  # 37KB
+/Users/szymonwronski/.bun/install/cache/jake  # 0B
+/Users/szymonwronski/.bun/install/cache/jake@10.9.4@@@1  # 274KB
+/Users/szymonwronski/.bun/install/cache/jiti  # 0B
+/Users/szymonwronski/.bun/install/cache/jiti@2.7.0@@@1  # 1.8MB
+/Users/szymonwronski/.bun/install/cache/js-tokens  # 0B
+/Users/szymonwronski/.bun/install/cache/js-tokens@4.0.0@@@1  # 29KB
+/Users/szymonwronski/.bun/install/cache/js-yaml  # 0B
+/Users/szymonwronski/.bun/install/cache/js-yaml@4.3.2@@@1  # 1.0MB
+/Users/szymonwronski/.bun/install/cache/jsesc  # 0B
+/Users/szymonwronski/.bun/install/cache/jsesc@3.1.0@@@1  # 45KB
+/Users/szymonwronski/.bun/install/cache/json5  # 0B
+/Users/szymonwronski/.bun/install/cache/json5@2.2.3@@@1  # 291KB
+/Users/szymonwronski/.bun/install/cache/launch-editor  # 0B
+/Users/szymonwronski/.bun/install/cache/launch-editor@2.14.1@@@1  # 57KB
+/Users/szymonwronski/.bun/install/cache/lightningcss  # 0B
+/Users/szymonwronski/.bun/install/cache/lightningcss-darwin-arm64  # 0B
+/Users/szymonwronski/.bun/install/cache/lightningcss-darwin-arm64@1.32.0@@@1  # 9.5MB
+/Users/szymonwronski/.bun/install/cache/lightningcss-darwin-arm64@1.33.0@@@1  # 9.5MB
+/Users/szymonwronski/.bun/install/cache/lightningcss@1.32.0@@@1  # 541KB
+/Users/szymonwronski/.bun/install/cache/lightningcss@1.33.0@@@1  # 549KB
+/Users/szymonwronski/.bun/install/cache/lru-cache  # 0B
+/Users/szymonwronski/.bun/install/cache/lru-cache@11.5.2@@@1  # 3.0MB
+/Users/szymonwronski/.bun/install/cache/lru-cache@5.1.1@@@1  # 25KB
+/Users/szymonwronski/.bun/install/cache/lzma-wasm  # 0B
+/Users/szymonwronski/.bun/install/cache/lzma-wasm@1.0.7@@@1  # 852KB
+/Users/szymonwronski/.bun/install/cache/lzma1  # 0B
+/Users/szymonwronski/.bun/install/cache/lzma1@0.3.0@@@1  # 311KB
+/Users/szymonwronski/.bun/install/cache/magic-string  # 0B
+/Users/szymonwronski/.bun/install/cache/magic-string@0.30.21@@@1  # 487KB
+/Users/szymonwronski/.bun/install/cache/minimatch  # 0B
+/Users/szymonwronski/.bun/install/cache/minimatch@10.2.6@@@1  # 680KB
+/Users/szymonwronski/.bun/install/cache/minimatch@5.1.9@@@1  # 61KB
+/Users/szymonwronski/.bun/install/cache/minipass  # 0B
+/Users/szymonwronski/.bun/install/cache/minipass@7.1.3@@@1  # 397KB
+/Users/szymonwronski/.bun/install/cache/ms  # 0B
+/Users/szymonwronski/.bun/install/cache/ms@2.1.3@@@1  # 16KB
+/Users/szymonwronski/.bun/install/cache/nanoid  # 0B
+/Users/szymonwronski/.bun/install/cache/nanoid@3.3.19@@@1  # 102KB
+/Users/szymonwronski/.bun/install/cache/nf3  # 0B
+/Users/szymonwronski/.bun/install/cache/nf3@0.3.24@@@1  # 1.1MB
+/Users/szymonwronski/.bun/install/cache/nitro  # 0B
+/Users/szymonwronski/.bun/install/cache/nitro@3.0.260610-50d49428a66e9f35@@@1  # 3.9MB
+/Users/szymonwronski/.bun/install/cache/node-releases  # 0B
+/Users/szymonwronski/.bun/install/cache/node-releases@2.0.55@@@1  # 74KB
+/Users/szymonwronski/.bun/install/cache/normalize-path  # 0B
+/Users/szymonwronski/.bun/install/cache/normalize-path@3.0.0@@@1  # 20KB
+/Users/szymonwronski/.bun/install/cache/npm-run-path  # 0B
+/Users/szymonwronski/.bun/install/cache/npm-run-path@6.0.0@@@1  # 20KB
+/Users/szymonwronski/.bun/install/cache/ocache  # 0B
+/Users/szymonwronski/.bun/install/cache/ocache@0.1.5@@@1  # 45KB
+/Users/szymonwronski/.bun/install/cache/ofetch  # 0B
+/Users/szymonwronski/.bun/install/cache/ofetch@2.0.0-3f776051070f1260@@@1  # 41KB
+/Users/szymonwronski/.bun/install/cache/ohash  # 0B
+/Users/szymonwronski/.bun/install/cache/ohash@2.0.12@@@1  # 66KB
+/Users/szymonwronski/.bun/install/cache/oxc-parser  # 0B
+/Users/szymonwronski/.bun/install/cache/oxc-parser@0.120.0@@@1  # 1.4MB
+/Users/szymonwronski/.bun/install/cache/package-json-from-dist  # 0B
+/Users/szymonwronski/.bun/install/cache/package-json-from-dist@1.0.1@@@1  # 70KB
+/Users/szymonwronski/.bun/install/cache/parse-gitignore  # 0B
+/Users/szymonwronski/.bun/install/cache/parse-gitignore@2.0.0@@@1  # 25KB
+/Users/szymonwronski/.bun/install/cache/parse-ms  # 0B
+/Users/szymonwronski/.bun/install/cache/parse-ms@4.0.0@@@1  # 20KB
+/Users/szymonwronski/.bun/install/cache/path-key  # 0B
+/Users/szymonwronski/.bun/install/cache/path-key@3.1.1@@@1  # 20KB
+/Users/szymonwronski/.bun/install/cache/path-key@4.0.0@@@1  # 20KB
+/Users/szymonwronski/.bun/install/cache/path-scurry  # 0B
+/Users/szymonwronski/.bun/install/cache/path-scurry@2.0.2@@@1  # 569KB
+/Users/szymonwronski/.bun/install/cache/pathe  # 0B
+/Users/szymonwronski/.bun/install/cache/pathe@2.0.3@@@1  # 90KB
+/Users/szymonwronski/.bun/install/cache/picocolors  # 0B
+/Users/szymonwronski/.bun/install/cache/picocolors@1.1.1@@@1  # 29KB
+/Users/szymonwronski/.bun/install/cache/picomatch  # 0B
+/Users/szymonwronski/.bun/install/cache/picomatch@2.3.2@@@1  # 115KB
+/Users/szymonwronski/.bun/install/cache/picomatch@4.0.7@@@1  # 119KB
+/Users/szymonwronski/.bun/install/cache/postcss  # 0B
+/Users/szymonwronski/.bun/install/cache/postcss@8.5.28@@@1  # 352KB
+/Users/szymonwronski/.bun/install/cache/prettier  # 0B
+/Users/szymonwronski/.bun/install/cache/prettier@3.9.6@@@1  # 10.1MB
+/Users/szymonwronski/.bun/install/cache/pretty-ms  # 0B
+/Users/szymonwronski/.bun/install/cache/pretty-ms@9.3.1@@@1  # 29KB
+/Users/szymonwronski/.bun/install/cache/react  # 0B
+/Users/szymonwronski/.bun/install/cache/react-dom  # 0B
+/Users/szymonwronski/.bun/install/cache/react-dom@19.3.0@@@1  # 8.2MB
+/Users/szymonwronski/.bun/install/cache/react@19.3.0@@@1  # 266KB
+/Users/szymonwronski/.bun/install/cache/readdirp  # 0B
+/Users/szymonwronski/.bun/install/cache/readdirp@3.6.0@@@1  # 33KB
+/Users/szymonwronski/.bun/install/cache/readdirp@5.1.1@@@1  # 41KB
+/Users/szymonwronski/.bun/install/cache/require-directory  # 0B
+/Users/szymonwronski/.bun/install/cache/require-directory@2.1.1@@@1  # 33KB
+/Users/szymonwronski/.bun/install/cache/rimraf  # 0B
+/Users/szymonwronski/.bun/install/cache/rimraf@6.1.3@@@1  # 672KB
+/Users/szymonwronski/.bun/install/cache/rolldown  # 0B
+/Users/szymonwronski/.bun/install/cache/rolldown@1.2.8@@@1  # 975KB
+/Users/szymonwronski/.bun/install/cache/rou3  # 0B
+/Users/szymonwronski/.bun/install/cache/rou3@0.8.1@@@1  # 53KB
+/Users/szymonwronski/.bun/install/cache/scheduler  # 0B
+/Users/szymonwronski/.bun/install/cache/scheduler@0.28.0@@@1  # 123KB
+/Users/szymonwronski/.bun/install/cache/semver  # 0B
+/Users/szymonwronski/.bun/install/cache/semver@6.3.1@@@1  # 86KB
+/Users/szymonwronski/.bun/install/cache/semver@7.8.5@@@1  # 274KB
+/Users/szymonwronski/.bun/install/cache/seroval  # 0B
+/Users/szymonwronski/.bun/install/cache/seroval-plugins  # 0B
+/Users/szymonwronski/.bun/install/cache/seroval-plugins@1.5.6@@@1  # 356KB
+/Users/szymonwronski/.bun/install/cache/seroval-plugins@1.6.7@@@1  # 184KB
+/Users/szymonwronski/.bun/install/cache/seroval@1.5.6@@@1  # 1.4MB
+/Users/szymonwronski/.bun/install/cache/seroval@1.6.7@@@1  # 532KB
+/Users/szymonwronski/.bun/install/cache/shebang-command  # 0B
+/Users/szymonwronski/.bun/install/cache/shebang-command@2.0.0@@@1  # 16KB
+/Users/szymonwronski/.bun/install/cache/shebang-regex  # 0B
+/Users/szymonwronski/.bun/install/cache/shebang-regex@3.0.0@@@1  # 20KB
+/Users/szymonwronski/.bun/install/cache/shell-quote  # 0B
+/Users/szymonwronski/.bun/install/cache/shell-quote@1.10.0@@@1  # 102KB
+/Users/szymonwronski/.bun/install/cache/signal-exit  # 0B
+/Users/szymonwronski/.bun/install/cache/signal-exit@4.1.0@@@1  # 168KB
+/Users/szymonwronski/.bun/install/cache/sisteransi  # 0B
+/Users/szymonwronski/.bun/install/cache/sisteransi@1.0.5@@@1  # 20KB
+/Users/szymonwronski/.bun/install/cache/solid-js  # 0B
+/Users/szymonwronski/.bun/install/cache/solid-js@1.9.15@@@1  # 1.3MB
+/Users/szymonwronski/.bun/install/cache/source-map  # 0B
+/Users/szymonwronski/.bun/install/cache/source-map-js  # 0B
+/Users/szymonwronski/.bun/install/cache/source-map-js@1.2.1@@@1  # 184KB
+/Users/szymonwronski/.bun/install/cache/source-map@0.7.6@@@1  # 229KB
+/Users/szymonwronski/.bun/install/cache/srvx  # 0B
+/Users/szymonwronski/.bun/install/cache/srvx@0.11.22@@@1  # 250KB
+/Users/szymonwronski/.bun/install/cache/string-width  # 0B
+/Users/szymonwronski/.bun/install/cache/string-width@4.2.3@@@1  # 20KB
+/Users/szymonwronski/.bun/install/cache/strip-ansi  # 0B
+/Users/szymonwronski/.bun/install/cache/strip-ansi@6.0.1@@@1  # 20KB
+/Users/szymonwronski/.bun/install/cache/strip-final-newline  # 0B
+/Users/szymonwronski/.bun/install/cache/strip-final-newline@4.0.0@@@1  # 20KB
+/Users/szymonwronski/.bun/install/cache/tailwindcss  # 0B
+/Users/szymonwronski/.bun/install/cache/tailwindcss@4.3.3@@@1  # 872KB
+/Users/szymonwronski/.bun/install/cache/tapable  # 0B
+/Users/szymonwronski/.bun/install/cache/tapable@2.3.3@@@1  # 131KB
+/Users/szymonwronski/.bun/install/cache/temp-dir  # 0B
+/Users/szymonwronski/.bun/install/cache/temp-dir@3.0.0@@@1  # 20KB
+/Users/szymonwronski/.bun/install/cache/tempy  # 0B
+/Users/szymonwronski/.bun/install/cache/tempy@3.2.0@@@1  # 29KB
+/Users/szymonwronski/.bun/install/cache/tinyglobby  # 0B
+/Users/szymonwronski/.bun/install/cache/tinyglobby@0.2.17@@@1  # 61KB
+/Users/szymonwronski/.bun/install/cache/to-regex-range  # 0B
+/Users/szymonwronski/.bun/install/cache/to-regex-range@5.0.1@@@1  # 33KB
+/Users/szymonwronski/.bun/install/cache/tslib  # 0B
+/Users/szymonwronski/.bun/install/cache/tslib@2.8.1@@@1  # 127KB
+/Users/szymonwronski/.bun/install/cache/type-fest  # 0B
+/Users/szymonwronski/.bun/install/cache/type-fest@1.4.0@@@1  # 328KB
+/Users/szymonwronski/.bun/install/cache/type-fest@2.19.0@@@1  # 418KB
+/Users/szymonwronski/.bun/install/cache/typescript  # 0B
+/Users/szymonwronski/.bun/install/cache/typescript@6.0.3@@@1  # 25.2MB
+/Users/szymonwronski/.bun/install/cache/ufo  # 0B
+/Users/szymonwronski/.bun/install/cache/ufo@1.6.4@@@1  # 131KB
+/Users/szymonwronski/.bun/install/cache/undici-types  # 0B
+/Users/szymonwronski/.bun/install/cache/undici-types@6.21.0@@@1  # 201KB
+/Users/szymonwronski/.bun/install/cache/unenv  # 0B
+/Users/szymonwronski/.bun/install/cache/unenv@2.0.0-6215195226ae3f6c@@@1  # 1.7MB
+/Users/szymonwronski/.bun/install/cache/unicorn-magic  # 0B
+/Users/szymonwronski/.bun/install/cache/unicorn-magic@0.3.0@@@1  # 29KB
+/Users/szymonwronski/.bun/install/cache/unique-string  # 0B
+/Users/szymonwronski/.bun/install/cache/unique-string@3.0.0@@@1  # 20KB
+/Users/szymonwronski/.bun/install/cache/unplugin  # 0B
+/Users/szymonwronski/.bun/install/cache/unplugin@3.3.0@@@1  # 127KB
+/Users/szymonwronski/.bun/install/cache/unstorage  # 0B
+/Users/szymonwronski/.bun/install/cache/unstorage@2.0.0-f90126fae4d4cdb9@@@1  # 414KB
+/Users/szymonwronski/.bun/install/cache/update-browserslist-db  # 0B
+/Users/szymonwronski/.bun/install/cache/update-browserslist-db@1.3.3@@@1  # 49KB
+/Users/szymonwronski/.bun/install/cache/use-sync-external-store  # 0B
+/Users/szymonwronski/.bun/install/cache/use-sync-external-store@1.7.0@@@1  # 74KB
+/Users/szymonwronski/.bun/install/cache/validate-npm-package-name  # 0B
+/Users/szymonwronski/.bun/install/cache/validate-npm-package-name@7.0.2@@@1  # 20KB
+/Users/szymonwronski/.bun/install/cache/vite  # 0B
+/Users/szymonwronski/.bun/install/cache/vite@8.3.0@@@1  # 2.5MB
+/Users/szymonwronski/.bun/install/cache/vitefu  # 0B
+/Users/szymonwronski/.bun/install/cache/vitefu@1.1.3@@@1  # 45KB
+/Users/szymonwronski/.bun/install/cache/webpack-virtual-modules  # 0B
+/Users/szymonwronski/.bun/install/cache/webpack-virtual-modules@0.6.2@@@1  # 78KB
+/Users/szymonwronski/.bun/install/cache/which  # 0B
+/Users/szymonwronski/.bun/install/cache/which@2.0.2@@@1  # 25KB
+/Users/szymonwronski/.bun/install/cache/wrap-ansi  # 0B
+/Users/szymonwronski/.bun/install/cache/wrap-ansi@7.0.0@@@1  # 20KB
+/Users/szymonwronski/.bun/install/cache/ws  # 0B
+/Users/szymonwronski/.bun/install/cache/ws@8.21.3@@@1  # 201KB
+/Users/szymonwronski/.bun/install/cache/xmlbuilder2  # 0B
+/Users/szymonwronski/.bun/install/cache/xmlbuilder2@4.0.3@@@1  # 1.2MB
+/Users/szymonwronski/.bun/install/cache/y18n  # 0B
+/Users/szymonwronski/.bun/install/cache/y18n@5.0.8@@@1  # 45KB
+/Users/szymonwronski/.bun/install/cache/yallist  # 0B
+/Users/szymonwronski/.bun/install/cache/yallist@3.1.1@@@1  # 33KB
+/Users/szymonwronski/.bun/install/cache/yargs  # 0B
+/Users/szymonwronski/.bun/install/cache/yargs-parser  # 0B
+/Users/szymonwronski/.bun/install/cache/yargs-parser@21.1.1@@@1  # 156KB
+/Users/szymonwronski/.bun/install/cache/yargs@17.7.3@@@1  # 479KB
+/Users/szymonwronski/.bun/install/cache/yoctocolors  # 0B
+/Users/szymonwronski/.bun/install/cache/yoctocolors@2.2.0@@@1  # 37KB
+/Users/szymonwronski/.bun/install/cache/zod  # 0B
+/Users/szymonwronski/.bun/install/cache/zod@3.25.76@@@1  # 5.3MB
+/Users/szymonwronski/.bun/install/cache/zod@4.6.2@@@1  # 8.4MB
+/Users/szymonwronski/.cache/uv/builds-v0  # 0B
+/Users/szymonwronski/.cache/uv/sdists-v9  # 164KB
+/Users/szymonwronski/.cache/uv/wheels-v6  # 266KB
+/Users/szymonwronski/.cache/uv/archive-v0  # 37.8MB
+/Users/szymonwronski/.cache/uv/simple-v24  # 3.4MB
+/Users/szymonwronski/.cache/uv/CACHEDIR.TAG  # 1KB
+/Users/szymonwronski/.cache/uv/interpreter-v4  # 12KB
+/Users/szymonwronski/.cache/uv/environments-v2  # 0B
+/Users/szymonwronski/Library/Caches/mise/go  # 8KB, counted under /Users/szymonwronski/Library/Caches/mise
+/Users/szymonwronski/Library/Caches/mise/bun  # 4KB, counted under /Users/szymonwronski/Library/Caches/mise
+/Users/szymonwronski/Library/Caches/mise/node  # 8KB, counted under /Users/szymonwronski/Library/Caches/mise
+/Users/szymonwronski/Library/Caches/mise/pnpm  # 33KB, counted under /Users/szymonwronski/Library/Caches/mise
+/Users/szymonwronski/Library/Caches/mise/rust  # 37KB, counted under /Users/szymonwronski/Library/Caches/mise
+/Users/szymonwronski/Library/Caches/mise/dotnet  # 70KB, counted under /Users/szymonwronski/Library/Caches/mise
+/Users/szymonwronski/Library/Caches/mise/github  # 90KB, counted under /Users/szymonwronski/Library/Caches/mise
+/Users/szymonwronski/Library/Caches/mise/neovim  # 16KB, counted under /Users/szymonwronski/Library/Caches/mise
+/Users/szymonwronski/Library/Caches/mise/python  # 21.5MB, counted under /Users/szymonwronski/Library/Caches/mise
+/Users/szymonwronski/Library/Caches/mise/lockfiles  # 0B, counted under /Users/szymonwronski/Library/Caches/mise
+/Library/Developer/CoreSimulator/Caches/dyld  # 0B
+/Users/szymonwronski/Library/Caches/org.swift.swiftpm/repositories  # 287KB
+/var/folders/xq/kgsrt58s2gd6b343zv48qwy00000gn/C/clang/ModuleCache  # 394.9MB
+/Users/szymonwronski/Library/Caches/com.figma.Desktop/fsCachedData  # 0B
+/Users/szymonwronski/Library/Application Support/Antigravity/Cache/Cache_Data  # 5.6MB
+/Users/szymonwronski/Library/Application Support/Antigravity/Cache/No_Vary_Search  # 8KB
+/Users/szymonwronski/Library/Application Support/Antigravity/Code Cache/js  # 70KB
+/Users/szymonwronski/Library/Application Support/Antigravity/Code Cache/wasm  # 8KB
+/Users/szymonwronski/Library/Application Support/Antigravity/GPUCache/index  # 263KB
+/Users/szymonwronski/Library/Application Support/Antigravity/GPUCache/data_0  # 8KB
+/Users/szymonwronski/Library/Application Support/Antigravity/GPUCache/data_1  # 270KB
+/Users/szymonwronski/Library/Application Support/Antigravity/GPUCache/data_2  # 8KB
+/Users/szymonwronski/Library/Application Support/Antigravity/GPUCache/data_3  # 8KB
+/Users/szymonwronski/Library/Application Support/Antigravity/DawnGraphiteCache/index  # 263KB
+/Users/szymonwronski/Library/Application Support/Antigravity/DawnGraphiteCache/data_0  # 8KB
+/Users/szymonwronski/Library/Application Support/Antigravity/DawnGraphiteCache/data_1  # 270KB
+/Users/szymonwronski/Library/Application Support/Antigravity/DawnGraphiteCache/data_2  # 8KB
+/Users/szymonwronski/Library/Application Support/Antigravity/DawnGraphiteCache/data_3  # 8KB
+/Users/szymonwronski/Library/Application Support/Antigravity/DawnWebGPUCache/index  # 263KB
+/Users/szymonwronski/Library/Application Support/Antigravity/DawnWebGPUCache/data_0  # 8KB
+/Users/szymonwronski/Library/Application Support/Antigravity/DawnWebGPUCache/data_1  # 270KB
+/Users/szymonwronski/Library/Application Support/Antigravity/DawnWebGPUCache/data_2  # 8KB
+/Users/szymonwronski/Library/Application Support/Antigravity/DawnWebGPUCache/data_3  # 8KB
+/Users/szymonwronski/Library/Application Support/Claude/Cache/Cache_Data  # 39.4MB
+/Users/szymonwronski/Library/Application Support/Claude/Cache/No_Vary_Search  # 8KB
+/Users/szymonwronski/Library/Application Support/Claude/Code Cache/js  # 20.6MB
+/Users/szymonwronski/Library/Application Support/Claude/Code Cache/wasm  # 8KB
+/Users/szymonwronski/Library/Application Support/Claude/Code Cache/electron-preload  # 631KB
+/Users/szymonwronski/Library/Application Support/Claude/GPUCache/index  # 263KB
+/Users/szymonwronski/Library/Application Support/Claude/GPUCache/data_0  # 45KB
+/Users/szymonwronski/Library/Application Support/Claude/GPUCache/data_1  # 270KB
+/Users/szymonwronski/Library/Application Support/Claude/GPUCache/data_2  # 1.1MB
+/Users/szymonwronski/Library/Application Support/Claude/GPUCache/data_3  # 8KB
+/Users/szymonwronski/Library/Application Support/Claude/DawnGraphiteCache/index  # 263KB
+/Users/szymonwronski/Library/Application Support/Claude/DawnGraphiteCache/data_0  # 8KB
+/Users/szymonwronski/Library/Application Support/Claude/DawnGraphiteCache/data_1  # 270KB
+/Users/szymonwronski/Library/Application Support/Claude/DawnGraphiteCache/data_2  # 8KB
+/Users/szymonwronski/Library/Application Support/Claude/DawnGraphiteCache/data_3  # 8KB
+/Users/szymonwronski/Library/Application Support/Claude/DawnWebGPUCache/index  # 263KB
+/Users/szymonwronski/Library/Application Support/Claude/DawnWebGPUCache/data_0  # 8KB
+/Users/szymonwronski/Library/Application Support/Claude/DawnWebGPUCache/data_1  # 270KB
+/Users/szymonwronski/Library/Application Support/Claude/DawnWebGPUCache/data_2  # 8KB
+/Users/szymonwronski/Library/Application Support/Claude/DawnWebGPUCache/data_3  # 8KB
+/Users/szymonwronski/Library/Application Support/Claude/sentry/queue  # 4KB
+/Users/szymonwronski/Library/Application Support/Claude/sentry/scope_v3.json  # 12KB
+/Users/szymonwronski/.cache/opencode/bin  # 0B
+/Users/szymonwronski/.cache/opencode/models.json  # 4.9MB
+/Users/szymonwronski/Library/Logs/CoreSimulator/CoreSimulator.log  # 3KB, counted under /Users/szymonwronski/Library/Logs/CoreSimulator
+/Users/szymonwronski/Library/Caches/com.apple.dt.Xcode/WebKit  # 106KB
+/Users/szymonwronski/Library/Caches/com.apple.dt.Xcode/fsCachedData  # 848KB
+/Users/szymonwronski/Library/Developer/Xcode/DerivedData/CompilationCache.noindex  # 29KB
+/Users/szymonwronski/Library/Developer/Xcode/DerivedData/MiniBar-cxhnmdnprdmtpufknshjaickogbv  # 139.9MB
+/Users/szymonwronski/Library/Developer/Xcode/DerivedData/ModuleCache.noindex  # 236.1MB
+/Users/szymonwronski/Library/Developer/Xcode/DerivedData/SDKStatCaches.noindex  # 14.4MB
+/Users/szymonwronski/Library/Developer/Xcode/DerivedData/SymbolCache.noindex  # 14.9MB
+/Users/szymonwronski/Library/Application Support/Zed/node/cache/_logs  # 45KB
+/Users/szymonwronski/Library/Application Support/Zed/node/cache/_cacache  # 942KB
+/Users/szymonwronski/Library/Application Support/Zed/node/cache/_update-notifier-last-checked  # 0B
+/Users/szymonwronski/Library/Logs/Zed/Zed.log  # 5KB, counted under /Users/szymonwronski/Library/Logs/Zed
+/Users/szymonwronski/Library/Logs/Zed/telemetry.log  # 0B, counted under /Users/szymonwronski/Library/Logs/Zed
+/Users/szymonwronski/Library/Caches/Homebrew/downloads/005ce2465bd6f85e1837efe351b6f25a7fbeb2afdf5d32177999a98521440c6d--cffi-2.1.1.bottle_manifest.json  # 34KB, counted under /Users/szymonwronski/Library/Caches/Homebrew
+/Users/szymonwronski/Library/Caches/Homebrew/downloads/01832f429b89467a0ad4d29d0518faff11681279410d7aecd3badb7ea9b95d15--ca-certificates-2026-09-25.bottle_manifest.json  # 8KB, counted under /Users/szymonwronski/Library/Caches/Homebrew
+/Users/szymonwronski/Library/Caches/Homebrew/downloads/01e82475d79a5db6818b4b0af93180a570d4c901683bf05af81a675bb23379dd--ollama-0.35.0.bottle_manifest.json  # 50KB, counted under /Users/szymonwronski/Library/Caches/Homebrew
+/Users/szymonwronski/Library/Caches/Homebrew/downloads/029efc1cd6d875d397a9c1eb6278b4385dda14c0d97c62e80ef67e7828a90bab--pycparser-3.0.bottle_manifest.json  # 2KB, counted under /Users/szymonwronski/Library/Caches/Homebrew
+/Users/szymonwronski/Library/Caches/Homebrew/downloads/02b696df2ada5493c9f594dac1424a4cbdc860c3314732d8d017109e2916c2b7--fd--10.5.0.arm64_tahoe.bottle.tar.gz  # 1.3MB, counted under /Users/szymonwronski/Library/Caches/Homebrew
+/Users/szymonwronski/Library/Caches/Homebrew/downloads/02f56bf3898c6f8e43f0b195a5ecf1137bc4a64f4fdcfb87454a26c0582c6cea--fontconfig-2.18.3.bottle_manifest.json  # 56KB, counted under /Users/szymonwronski/Library/Caches/Homebrew
+/Users/szymonwronski/Library/Caches/Homebrew/downloads/03a569e90871d49bf234d9dbff67715434525fbe711217fa9c710882399f6fe9--sdl3--3.4.16.arm64_tahoe.bottle.tar.gz  # 1.6MB, counted under /Users/szymonwronski/Library/Caches/Homebrew
+/Users/szymonwronski/Library/Caches/Homebrew/downloads/04e81e3ec848d14ab1ce1fe55cd4d53d97fa062ff5d9219961387d3e384b95f3--exiftool-13.55_1.bottle_manifest.json  # 38KB, counted under /Users/szymonwronski/Library/Caches/Homebrew
+/Users/szymonwronski/Library/Caches/Homebrew/downloads/05cf2f8ea2d0873ccc90c98f9c7f53b586a84dc40dcf7b3e1d10165042abe3cb--libvpx--1.17.0.arm64_tahoe.bottle.1.tar.gz  # 1.9MB, counted under /Users/szymonwronski/Library/Caches/Homebrew
+/Users/szymonwronski/Library/Caches/Homebrew/downloads/096f7dd19dd5f58783b133135d89aa374a4561dfa42acb8394906a73350a36a3--ffmpeg-9.0.2.bottle_manifest.json  # 178KB, counted under /Users/szymonwronski/Library/Caches/Homebrew
+/Users/szymonwronski/Library/Caches/Homebrew/downloads/0aeb65ba021978558c617cc877faa6b63c8462114601d2ef5df9c320a65ad6fd--gh-2.102.0.bottle_manifest.json  # 13KB, counted under /Users/szymonwronski/Library/Caches/Homebrew
+/Users/szymonwronski/Library/Caches/Homebrew/downloads/105ce8a0dbb31eb729063186aa0bf315984313017140805e1184d768b6decbd4--simdutf-9.2.1_1.bottle_manifest.json  # 20KB, counted under /Users/szymonwronski/Library/Caches/Homebrew
+/Users/szymonwronski/Library/Caches/Homebrew/downloads/10a0d9041954c7ac13c18d3e8bc3a0fbc7beb554474ec73bbacadbb82bcf88ec--libuv--1.53.0.arm64_tahoe.bottle.tar.gz  # 382KB, counted under /Users/szymonwronski/Library/Caches/Homebrew
+/Users/szymonwronski/Library/Caches/Homebrew/downloads/119bb6119f1e4ae5845a097f751e5296ae6da336a6149ba43fae72cbaf7c8d6d--ffmpeg--9.0.2.arm64_tahoe.bottle.tar.gz  # 21.5MB, counted under /Users/szymonwronski/Library/Caches/Homebrew
+/Users/szymonwronski/Library/Caches/Homebrew/downloads/11f6add3145da2906b20211adfd47a0f8cca8d3c51521bcd8f5f15656624d509--xz--5.8.4.arm64_tahoe.bottle.tar.gz  # 790KB, counted under /Users/szymonwronski/Library/Caches/Homebrew
+/Users/szymonwronski/Library/Caches/Homebrew/downloads/12b5d66e7767a8b7c9a2513392b897c3e4654b756e582a340f3ff527f4ab7974--Zed-aarch64.dmg  # 118.5MB, counted under /Users/szymonwronski/Library/Caches/Homebrew
+/Users/szymonwronski/Library/Caches/Homebrew/downloads/12b8e535f0470b4276310d922fa2fdabeada58a4ac2e9b906b884ef809b20c9a--yyjson--0.13.0.arm64_tahoe.bottle.tar.gz  # 154KB, counted under /Users/szymonwronski/Library/Caches/Homebrew
+/Users/szymonwronski/Library/Caches/Homebrew/downloads/12fc50aff7e15f89ee0e4c5f3acb3281792d5ead65f267133ac5f311848413f7--clang-format-23.1.2.bottle_manifest.json  # 46KB, counted under /Users/szymonwronski/Library/Caches/Homebrew
+/Users/szymonwronski/Library/Caches/Homebrew/downloads/13902ff997ce1627e1ded68f196b1b4ed5e448b4c11b7114aa616f9893fa9248--lame--4.0.arm64_tahoe.bottle.tar.gz  # 665KB, counted under /Users/szymonwronski/Library/Caches/Homebrew
+/Users/szymonwronski/Library/Caches/Homebrew/downloads/157b29cc9c2ab867c827bd55e092ba67dd92839e8d6d522916e9b40348753073--pcre2--10.49.arm64_tahoe.bottle.tar.gz  # 2.5MB, counted under /Users/szymonwronski/Library/Caches/Homebrew
+/Users/szymonwronski/Library/Caches/Homebrew/downloads/15dfc0dde5e4fb3af17182834644c769dd2d58525e8e3ae24833e800449249ee--dos2unix--7.5.7.arm64_tahoe.bottle.tar.gz  # 151KB, counted under /Users/szymonwronski/Library/Caches/Homebrew
+/Users/szymonwronski/Library/Caches/Homebrew/downloads/16dbb20241ec403fb37f77713f1d80993d5db12032555e92e9b15397b48f85be--ollama--0.35.0.arm64_tahoe.bottle.tar.gz  # 15.5MB, counted under /Users/szymonwronski/Library/Caches/Homebrew
+/Users/szymonwronski/Library/Caches/Homebrew/downloads/171e2d8e83af6926449f9102a0933defdf7cac51d39049362f78bff7d6dbff8b--bash--5.3.20.arm64_tahoe.bottle.tar.gz  # 3.4MB, counted under /Users/szymonwronski/Library/Caches/Homebrew
+/Users/szymonwronski/Library/Caches/Homebrew/downloads/1e64924e03058967fa03bd8146aef8a32a3fb86fe7f32e02b0c26734dd0f9db3--protobuf-c-1.5.2_20.bottle_manifest.json  # 28KB, counted under /Users/szymonwronski/Library/Caches/Homebrew
+/Users/szymonwronski/Library/Caches/Homebrew/downloads/212c9d94d8743ec1fc1c043f2908e2e779ad37da94f2560e2871ab58c99e6166--little-cms2-2.19.1-1.bottle_manifest.json  # 68KB, counted under /Users/szymonwronski/Library/Caches/Homebrew
+/Users/szymonwronski/Library/Caches/Homebrew/downloads/21c9b0f5c656482f9ce5c523de8243796ca4dfe3ea859089c7c29ea0da26fe50--exiftool--13.55_1.arm64_tahoe.bottle.tar.gz  # 16.7MB, counted under /Users/szymonwronski/Library/Caches/Homebrew
+/Users/szymonwronski/Library/Caches/Homebrew/downloads/2357395fec221cd6050877c99d646cd5d0f14b9f13f38afd4d5f066e7dccef0b--Legcord-1.3.0-mac-universal.dmg  # 249.7MB, counted under /Users/szymonwronski/Library/Caches/Homebrew
+/Users/szymonwronski/Library/Caches/Homebrew/downloads/23a01941bba8e3d36503ecab92c6c6b41f9f112fd29f7dfe22453a77eaf2b1bc--x265-4.3-1.bottle_manifest.json  # 14KB, counted under /Users/szymonwronski/Library/Caches/Homebrew
+/Users/szymonwronski/Library/Caches/Homebrew/downloads/2671ca2d88831c1f69aefe2a7c6445592d4322b33eea708d6cead90c247db89a--cairo--1.18.6.arm64_tahoe.bottle.tar.gz  # 1.6MB, counted under /Users/szymonwronski/Library/Caches/Homebrew
+/Users/szymonwronski/Library/Caches/Homebrew/downloads/26d33b213b2a0a3778f783ee4dace5a4831692bfbb69527bb146de9ec433ba5c--Maccy.app.zip  # 4.7MB, counted under /Users/szymonwronski/Library/Caches/Homebrew
+/Users/szymonwronski/Library/Caches/Homebrew/downloads/2756844265ea1ede6d31e19812f568b5020151560a18bcf53cd78ec32b8fe010--mpg123-1.33.7-1.bottle_manifest.json  # 15KB, counted under /Users/szymonwronski/Library/Caches/Homebrew
+/Users/szymonwronski/Library/Caches/Homebrew/downloads/29dd03aa016fde80736f86dae8f7814bdb771c34f01c996322167617a30dc951--yt-dlp--2026.8.19_1.arm64_tahoe.bottle.2.tar.gz  # 8.1MB, counted under /Users/szymonwronski/Library/Caches/Homebrew
+/Users/szymonwronski/Library/Caches/Homebrew/downloads/2a7247f3c12df0810bd3ee7f20bd3de4a543231cd8e4869b6ac3a7bbccb19ce7--dos2unix-7.5.7.bottle_manifest.json  # 16KB, counted under /Users/szymonwronski/Library/Caches/Homebrew
+/Users/szymonwronski/Library/Caches/Homebrew/downloads/2b5f77e11905369852b3c856215b9d5ee7a087b11626d31547e7b26b29acfb22--Shottr-1.9.3b.dmg  # 2.4MB, counted under /Users/szymonwronski/Library/Caches/Homebrew
+/Users/szymonwronski/Library/Caches/Homebrew/downloads/2c346a062516e38d0da579b27f2e8156e9dbc7ebc146a1ad704f1b9cfb6cde06--highway-1.4.0.bottle_manifest.json  # 10KB, counted under /Users/szymonwronski/Library/Caches/Homebrew
+/Users/szymonwronski/Library/Caches/Homebrew/downloads/2d6e70b9600ca4665c8afe70e75557c9ce23d98cfc7e278ece6b16a63b259e8b--ca-certificates--2026-09-25.all.bottle.tar.gz  # 113KB, counted under /Users/szymonwronski/Library/Caches/Homebrew
+/Users/szymonwronski/Library/Caches/Homebrew/downloads/30f4380b9353a3ca582b95ac8c94f3433c25fbc557665c7d5e03365006cc036f--lazygit--0.65.1.arm64_tahoe.bottle.tar.gz  # 6.7MB, counted under /Users/szymonwronski/Library/Caches/Homebrew
+/Users/szymonwronski/Library/Caches/Homebrew/downloads/327c9a421c25152f5cbfd14f499b7f591385f628d17c9b6a30cf87e539e10336--sketchybar-app-font.ttf  # 332KB, counted under /Users/szymonwronski/Library/Caches/Homebrew
+/Users/szymonwronski/Library/Caches/Homebrew/downloads/349f0b4bfccfb192fa4b189baa69104258496a5d8f7e9acce4f8cd2bb443672e--libssh2--1.11.1_6.arm64_tahoe.bottle.tar.gz  # 421KB, counted under /Users/szymonwronski/Library/Caches/Homebrew
+/Users/szymonwronski/Library/Caches/Homebrew/downloads/34bb90f6a2a6bb7f6aa1e17572782ab9761fdf714456ed3378628c8fcc5e5f4d--jemalloc-5.4.0.bottle_manifest.json  # 15KB, counted under /Users/szymonwronski/Library/Caches/Homebrew
+/Users/szymonwronski/Library/Caches/Homebrew/downloads/350c9b8c988c3dc8dbf94345b01a2dddb94f9421f86b2ab162a754ec979770fa--zinit-3.17.0.bottle_manifest.json  # 17KB, counted under /Users/szymonwronski/Library/Caches/Homebrew
+/Users/szymonwronski/Library/Caches/Homebrew/downloads/3b4c638ce9d532a39e53d8015f9c44f84ab4d868326f0459b7e79d659c985330--mole-1.56.1.bottle_manifest.json  # 9KB, counted under /Users/szymonwronski/Library/Caches/Homebrew
+/Users/szymonwronski/Library/Caches/Homebrew/downloads/3e87989f7b1e06baf12a5176d762e2047428254b47673bc90095c14aafdc087e--simdjson--4.6.11.arm64_tahoe.bottle.tar.gz  # 1.5MB, counted under /Users/szymonwronski/Library/Caches/Homebrew
+/Users/szymonwronski/Library/Caches/Homebrew/downloads/44fb36e51181741bb178e10a58100b4f37ffb899d165dd48920fb91f6846f33a--Vicinae.dmg  # 26.3MB, counted under /Users/szymonwronski/Library/Caches/Homebrew
+/Users/szymonwronski/Library/Caches/Homebrew/downloads/4a927b335b66f50d42c144f2bbc7c000384414951a542ced9ccf8ab03da5d05d--libpng-1.6.59.bottle_manifest.json  # 16KB, counted under /Users/szymonwronski/Library/Caches/Homebrew
+/Users/szymonwronski/Library/Caches/Homebrew/downloads/4d255cd6e7fb79a91e21722af207924c761847fbe08228f68641c79ca7ca9f98--readline--8.3.6.arm64_tahoe.bottle.tar.gz  # 758KB, counted under /Users/szymonwronski/Library/Caches/Homebrew
+/Users/szymonwronski/Library/Caches/Homebrew/downloads/4d5aa3dc31bca7c1a3cd311e820309d3dcd3f189ae0487927c513feb5e1ef2ff--bash-5.3.20.bottle_manifest.json  # 38KB, counted under /Users/szymonwronski/Library/Caches/Homebrew
+/Users/szymonwronski/Library/Caches/Homebrew/downloads/521378c31004c88cd17bcb1b19efec3c58cd731e07e1a8d34c8e557d474366e8--svt-av1-4.2.0.bottle_manifest.json  # 18KB, counted under /Users/szymonwronski/Library/Caches/Homebrew
+/Users/szymonwronski/Library/Caches/Homebrew/downloads/54bfaa1d7d4dd8e7cef3d524cc1d1604e01b500c61320890138bea7b5f1300a5--certifi-2026.7.22-1.bottle_manifest.json  # 13KB, counted under /Users/szymonwronski/Library/Caches/Homebrew
+/Users/szymonwronski/Library/Caches/Homebrew/downloads/55cdffdb532185b7f056458832717063e2bce94510df7d1123936f857e4d66cc--openssl@3--3.6.5.arm64_tahoe.bottle.tar.gz  # 11.0MB, counted under /Users/szymonwronski/Library/Caches/Homebrew
+/Users/szymonwronski/Library/Caches/Homebrew/downloads/56cf59ebb8062d5a953209d2635c1ec04c13c2f4215cdf391e2d89a3d01bd5ae--lua-5.5.1.bottle_manifest.json  # 18KB, counted under /Users/szymonwronski/Library/Caches/Homebrew
+/Users/szymonwronski/Library/Caches/Homebrew/downloads/572c70e35b63b2bd230b61f8b8e45c8ab176223d1ae55294cc860fefae4a304a--protobuf--36.2.arm64_tahoe.bottle.tar.gz  # 3.8MB, counted under /Users/szymonwronski/Library/Caches/Homebrew
+/Users/szymonwronski/Library/Caches/Homebrew/downloads/5991c6ac6a98fbe6a824d7aeda03e1b56f19e882b40c7d39aeb5d2e60a7a1b3e--fontconfig--2.18.3.arm64_tahoe.bottle.tar.gz  # 452KB, counted under /Users/szymonwronski/Library/Caches/Homebrew
+/Users/szymonwronski/Library/Caches/Homebrew/downloads/5bc5852b2e8033ece52be86d0be3e670572fb393951c6ad9f20ccf070460fb9c--usage--6.12.0.arm64_tahoe.bottle.tar.gz  # 4.3MB, counted under /Users/szymonwronski/Library/Caches/Homebrew
+/Users/szymonwronski/Library/Caches/Homebrew/downloads/5d084dface8dae1e61e10431ad731821581c1be3ef3c5c7c3304e576bb394251--vercel--61.1.0.arm64_tahoe.bottle.tar.gz  # 88.7MB, counted under /Users/szymonwronski/Library/Caches/Homebrew
+/Users/szymonwronski/Library/Caches/Homebrew/downloads/600794189233be6914687aca6912157202b4e66fc991d9996ea54c63cbdc60d4--ripgrep--15.2.0.arm64_tahoe.bottle.1.tar.gz  # 2.1MB, counted under /Users/szymonwronski/Library/Caches/Homebrew
+/Users/szymonwronski/Library/Caches/Homebrew/downloads/645a8aa905542fd3cdcd8b3bb592f078665f89423e6862c94e4f4bfff57b05be--tmux--3.7c.arm64_tahoe.bottle.1.tar.gz  # 544KB, counted under /Users/szymonwronski/Library/Caches/Homebrew
+/Users/szymonwronski/Library/Caches/Homebrew/downloads/65525fb566ec6c295263d1f3b5dec95f8b7991e42af42ab3ff210d2bc6ff28cf--lame-4.0.bottle_manifest.json  # 27KB, counted under /Users/szymonwronski/Library/Caches/Homebrew
+/Users/szymonwronski/Library/Caches/Homebrew/downloads/659c63f4c1280f0f4730d81c11d9cdc09091207ce27877a75c12662d1c375b72--glib-2.90.0.bottle_manifest.json  # 73KB, counted under /Users/szymonwronski/Library/Caches/Homebrew
+/Users/szymonwronski/Library/Caches/Homebrew/downloads/6625ef37320cb33fbe40ec52e91deb55152a725b46a19753fb9ab77cfa0ab58d--vercel-61.1.0.bottle_manifest.json  # 167KB, counted under /Users/szymonwronski/Library/Caches/Homebrew
+/Users/szymonwronski/Library/Caches/Homebrew/downloads/66b9566b0cd4a592dc196313c21da8794bb4807dbaad915035c1bf0cc9c23968--harfbuzz-14.5.1.bottle_manifest.json  # 153KB, counted under /Users/szymonwronski/Library/Caches/Homebrew
+/Users/szymonwronski/Library/Caches/Homebrew/downloads/66eab365501024be025934ded4faf873801bd2e01c33de6e2a4ab57b2fd201d0--jemalloc--5.4.0.arm64_tahoe.bottle.tar.gz  # 931KB, counted under /Users/szymonwronski/Library/Caches/Homebrew
+/Users/szymonwronski/Library/Caches/Homebrew/downloads/6a28a78174e3f621dd2754b47cf65919eba29f8896876a5149b37dce991cefa9--svt-av1--4.2.0.arm64_tahoe.bottle.tar.gz  # 1.4MB, counted under /Users/szymonwronski/Library/Caches/Homebrew
+/Users/szymonwronski/Library/Caches/Homebrew/downloads/6d57d35d8b4b35363f8fa71326719b075780848590740b1d702d60c49423647b--xcodes-2.1.0.bottle_manifest.json  # 8KB, counted under /Users/szymonwronski/Library/Caches/Homebrew
+/Users/szymonwronski/Library/Caches/Homebrew/downloads/6d865e3370ee1cf68cbba3c3a7843f5d4924042d74c5600868191466fdbfe5ba--cmake--4.4.3.arm64_tahoe.bottle.tar.gz  # 19.8MB, counted under /Users/szymonwronski/Library/Caches/Homebrew
+/Users/szymonwronski/Library/Caches/Homebrew/downloads/6d9fef12872fce357d2de74739a03271e7d7a6ee028ff0ed0a8c8037290ef712--python@3.14-3.14.8.bottle_manifest.json  # 110KB, counted under /Users/szymonwronski/Library/Caches/Homebrew
+/Users/szymonwronski/Library/Caches/Homebrew/downloads/6ef8fcee8fb4e775cf0f8d4a4a0d28919795cc2234295989d1d2754dbdf6a9aa--mlx-0.32.1.bottle_manifest.json  # 49KB, counted under /Users/szymonwronski/Library/Caches/Homebrew
+/Users/szymonwronski/Library/Caches/Homebrew/downloads/6fbc3ad17a2f72896a9fe34d6ca0369db18ccb1c23681644a959204fe5e5a63f--libvmaf--3.2.1.arm64_tahoe.bottle.tar.gz  # 1.3MB, counted under /Users/szymonwronski/Library/Caches/Homebrew
+/Users/szymonwronski/Library/Caches/Homebrew/downloads/70365eacbeaa4470ca3deab02a4c0258d33a255dfe1dccdfcd8989062128de52--libvpx-1.17.0-1.bottle_manifest.json  # 13KB, counted under /Users/szymonwronski/Library/Caches/Homebrew
+/Users/szymonwronski/Library/Caches/Homebrew/downloads/705578ab0bcc4c9d52ac9bacc4df681f96edd478a37c0a4f57309e86b06b8418--sesh--2.31.0.arm64_tahoe.bottle.tar.gz  # 3.3MB, counted under /Users/szymonwronski/Library/Caches/Homebrew
+/Users/szymonwronski/Library/Caches/Homebrew/downloads/71429cf3da3f6bc94b0c76861fa3d5001033eb031c9a6237dbf24f0d7aaa4021--openssl@3-3.6.5.bottle_manifest.json  # 20KB, counted under /Users/szymonwronski/Library/Caches/Homebrew
+/Users/szymonwronski/Library/Caches/Homebrew/downloads/73869938a79a2a80d894ee957e1fcfe49ec630e4af2840c0710e8f5443c8e027--pcre2-10.49.bottle_manifest.json  # 19KB, counted under /Users/szymonwronski/Library/Caches/Homebrew
+/Users/szymonwronski/Library/Caches/Homebrew/downloads/74edbe3a472282dfd1920f967d31369ad35267f3624cfff39befc49dca1ea7e3--git--2.56.0.arm64_tahoe.bottle.tar.gz  # 24.2MB, counted under /Users/szymonwronski/Library/Caches/Homebrew
+/Users/szymonwronski/Library/Caches/Homebrew/downloads/755098236c6ea187ff998323223c448ca4ad29f19646319101f5ca1e45bf1af0--VSCode-darwin-arm64.zip  # 317.9MB, counted under /Users/szymonwronski/Library/Caches/Homebrew
+/Users/szymonwronski/Library/Caches/Homebrew/downloads/75ae8cae4e9ee00c1ed7676c3b02785bcc2bc7a3284ba2bea3e03d58e5bb5503--openjdk-27-1.bottle_manifest.json  # 212KB, counted under /Users/szymonwronski/Library/Caches/Homebrew
+/Users/szymonwronski/Library/Caches/Homebrew/downloads/77609ebb3a9ec0d7ca84e7cec2c8e2d28a3c2d240e42f2bb8dc9feb8b194cb9b--node-26.10.0_1.bottle_manifest.json  # 148KB, counted under /Users/szymonwronski/Library/Caches/Homebrew
+/Users/szymonwronski/Library/Caches/Homebrew/downloads/79e2fed7d70cd91d9eccb7bacb32533c70e0f5d3d64dbacbd437b5efe6c25267--GitHubDesktop-arm64.zip  # 305.0MB, counted under /Users/szymonwronski/Library/Caches/Homebrew
+/Users/szymonwronski/Library/Caches/Homebrew/downloads/7a0961c7b8fc6f82ab52c1c532cf4770f75ebe4e5563d7eafe99500b50dbb559--coreutils--9.12.arm64_tahoe.bottle.1.tar.gz  # 4.9MB, counted under /Users/szymonwronski/Library/Caches/Homebrew
+/Users/szymonwronski/Library/Caches/Homebrew/downloads/7b6f2110b03a9e4c8fe78cc2ecb2ac35190456d69fab6f836bca78bc2730aacf--openjdk--27.arm64_tahoe.bottle.1.tar.gz  # 220.8MB, counted under /Users/szymonwronski/Library/Caches/Homebrew
+/Users/szymonwronski/Library/Caches/Homebrew/downloads/7c3d74d4309568c834df39ee20847b2a41f9be40a55d3c59c14abd037e1b05f0--cmake-4.4.3.bottle_manifest.json  # 32KB, counted under /Users/szymonwronski/Library/Caches/Homebrew
+/Users/szymonwronski/Library/Caches/Homebrew/downloads/7c71f6414e849c32c50e292328cc5ab3ef8e15b1a171075a700beaae04d148fc--usage-6.12.0.bottle_manifest.json  # 13KB, counted under /Users/szymonwronski/Library/Caches/Homebrew
+/Users/szymonwronski/Library/Caches/Homebrew/downloads/7d35f964207f9b27a370abe146b416d1d14f30d39d59a928f93a1ccd0d5c309a--helium_0.18.2.1_arm64-macos.dmg  # 113.4MB, counted under /Users/szymonwronski/Library/Caches/Homebrew
+/Users/szymonwronski/Library/Caches/Homebrew/downloads/7d706afb81b25c5af0bdb405c5445e48221354032de80e9682956dd8560c1afe--tree-sitter-cli--0.27.0.arm64_tahoe.bottle.tar.gz  # 3.9MB, counted under /Users/szymonwronski/Library/Caches/Homebrew
+/Users/szymonwronski/Library/Caches/Homebrew/downloads/7ea60a53dbee88a31e1c65e7e11d5c9f2d89410bd0f8b00689d73b4c6bad807a--git-2.56.0.bottle_manifest.json  # 88KB, counted under /Users/szymonwronski/Library/Caches/Homebrew
+/Users/szymonwronski/Library/Caches/Homebrew/downloads/7fe6d88976f0a314ed590675a8ba81d9faa93025c765e3095fbff69c5048784a--harfbuzz--14.5.1.arm64_tahoe.bottle.tar.gz  # 3.9MB, counted under /Users/szymonwronski/Library/Caches/Homebrew
+/Users/szymonwronski/Library/Caches/Homebrew/downloads/834e6297dd3d424e38f9a4eb3e6835592541483de677a307bbd650523d73e852--yt-dlp-2026.8.19_1-2.bottle_manifest.json  # 154KB, counted under /Users/szymonwronski/Library/Caches/Homebrew
+/Users/szymonwronski/Library/Caches/Homebrew/downloads/849a5ad8c0fa0b913684f0f070d7702958ad6892273b419970732fe70580acc2--sdl2-compat--2.32.72.arm64_tahoe.bottle.tar.gz  # 639KB, counted under /Users/szymonwronski/Library/Caches/Homebrew
+/Users/szymonwronski/Library/Caches/Homebrew/downloads/86390acc2bbeae5b2803050d5af9e2f6b7edb39e0b3b33519b4efec1ddb46b46--readline-8.3.6.bottle_manifest.json  # 15KB, counted under /Users/szymonwronski/Library/Caches/Homebrew
+/Users/szymonwronski/Library/Caches/Homebrew/downloads/86d7ebf6651a2a108dca758cb5aef94a744c43512a368c94f986da602712c01b--glib--2.90.0.arm64_tahoe.bottle.tar.gz  # 9.3MB, counted under /Users/szymonwronski/Library/Caches/Homebrew
+/Users/szymonwronski/Library/Caches/Homebrew/downloads/8737d1372dce4caac3276ecfb8387b3db60f8b4107fe4f0360a16b167cd4e8a4--mlx-c-0.6.0_4.bottle_manifest.json  # 52KB, counted under /Users/szymonwronski/Library/Caches/Homebrew
+/Users/szymonwronski/Library/Caches/Homebrew/downloads/87a710ae3061016dad6986fdef36b90db543a5d3e6a284110b008b3aa3af7822--xz-5.8.4.bottle_manifest.json  # 15KB, counted under /Users/szymonwronski/Library/Caches/Homebrew
+/Users/szymonwronski/Library/Caches/Homebrew/downloads/87de80127767e61a40a32ddae9fc7a0fedd8790c1453ca85a11adcf396226d89--ripgrep-15.2.0-1.bottle_manifest.json  # 30KB, counted under /Users/szymonwronski/Library/Caches/Homebrew
+/Users/szymonwronski/Library/Caches/Homebrew/downloads/88881e66883c4776fff9b3019b48a26795020439a33ddbedd3bd4620283aecd2--googlechrome.dmg  # 282.8MB, counted under /Users/szymonwronski/Library/Caches/Homebrew
+/Users/szymonwronski/Library/Caches/Homebrew/downloads/88941e40758e6f38baafcc13053fd3137ccbc6caf1996a032061fb3b5112d70b--mlx-c--0.6.0_4.arm64_tahoe.bottle.tar.gz  # 188KB, counted under /Users/szymonwronski/Library/Caches/Homebrew
+/Users/szymonwronski/Library/Caches/Homebrew/downloads/8a39e8ae41a3734ae437fc33c9c49cc4a449b4cd15db81d2892cfd86f46f5e85--sdl3-3.4.16.bottle_manifest.json  # 112KB, counted under /Users/szymonwronski/Library/Caches/Homebrew
+/Users/szymonwronski/Library/Caches/Homebrew/downloads/8a4174a3f76c6cf3bc0a420943e590f3428f813f03c1df34e20cf0ed3d46a87e--JetBrainsMono.tar.xz  # 7.3MB, counted under /Users/szymonwronski/Library/Caches/Homebrew
+/Users/szymonwronski/Library/Caches/Homebrew/downloads/8bd611474f9423ac9176aeef5605bd47ee10fca163472447fedc6bd05c5cdced--Hack.tar.xz  # 2.8MB, counted under /Users/szymonwronski/Library/Caches/Homebrew
+/Users/szymonwronski/Library/Caches/Homebrew/downloads/8d250efc6eb6b62a3db0420aebc3a39f86fa6629e221d137634f7644fcebc106--little-cms2--2.19.1.arm64_tahoe.bottle.1.tar.gz  # 433KB, counted under /Users/szymonwronski/Library/Caches/Homebrew
+/Users/szymonwronski/Library/Caches/Homebrew/downloads/8da6c44fe6a2937c63817920737abcccfa41cec4e2834c2272d081c0567ad0f7--libgit2--1.9.7.arm64_tahoe.bottle.tar.gz  # 2.0MB, counted under /Users/szymonwronski/Library/Caches/Homebrew
+/Users/szymonwronski/Library/Caches/Homebrew/downloads/8efe82a0f7782a404f161c800216d8ee5f48c1f5cab23c45400232e3bfa4eb88--mlx--0.32.1.arm64_tahoe.bottle.tar.gz  # 39.7MB, counted under /Users/szymonwronski/Library/Caches/Homebrew
+/Users/szymonwronski/Library/Caches/Homebrew/downloads/8f39ddfe6d8f838e8a35fc0bcffc7df21b3c32d5d708439750ea5ae1f117608f--fastfetch-2.69.0.bottle_manifest.json  # 18KB, counted under /Users/szymonwronski/Library/Caches/Homebrew
+/Users/szymonwronski/Library/Caches/Homebrew/downloads/915eb8fa6fa922ff37440641ed6b36ecd469438db13b36fa4228c68e044886eb--SpotifyARM64.dmg  # 173.3MB, counted under /Users/szymonwronski/Library/Caches/Homebrew
+/Users/szymonwronski/Library/Caches/Homebrew/downloads/92ca1acbd6e0a6709cf60e20ac0cac1ccc0af9c7927624d5a634b88bbb3d40bd--highway--1.4.0.arm64_tahoe.bottle.tar.gz  # 929KB, counted under /Users/szymonwronski/Library/Caches/Homebrew
+/Users/szymonwronski/Library/Caches/Homebrew/downloads/93f784476cb6757abcf6bcc6cde0087722874d5eaabc644ed3dc6a2c000e78b0--yazi--26.9.1.arm64_tahoe.bottle.tar.gz  # 13.7MB, counted under /Users/szymonwronski/Library/Caches/Homebrew
+/Users/szymonwronski/Library/Caches/Homebrew/downloads/9447ac879b88b611f7b9da70d28f63f0b5752ca5ccdf2f19d8bb36d4154d6a4e--opencode-1.18.30_2.bottle_manifest.json  # 30KB, counted under /Users/szymonwronski/Library/Caches/Homebrew
+/Users/szymonwronski/Library/Caches/Homebrew/downloads/95559a79b022f5f1db6c218c4f85bcb9afe355f2db7dfa68ef289de01071b2ec--deno--2.9.7.arm64_tahoe.bottle.tar.gz  # 45.2MB, counted under /Users/szymonwronski/Library/Caches/Homebrew
+/Users/szymonwronski/Library/Caches/Homebrew/downloads/9a945a3c52300ae71459c1edc7d79cfeca3d25286382f2e64307519fcef24dca--fzf--0.74.4.arm64_tahoe.bottle.tar.gz  # 2.2MB, counted under /Users/szymonwronski/Library/Caches/Homebrew
+/Users/szymonwronski/Library/Caches/Homebrew/downloads/9f17230a9a7b2da7efb40cdbe53d447a000463797ef1d755c5ebf2528c495b94--gh--2.102.0.arm64_tahoe.bottle.tar.gz  # 14.1MB, counted under /Users/szymonwronski/Library/Caches/Homebrew
+/Users/szymonwronski/Library/Caches/Homebrew/downloads/9f3bb2de4f962c86ab4a0f0ac6e717e186de2f5b1e0321422c4aa69ee4fb9808--sevenzip-26.03.bottle_manifest.json  # 17KB, counted under /Users/szymonwronski/Library/Caches/Homebrew
+/Users/szymonwronski/Library/Caches/Homebrew/downloads/a04f2d72d4bd09ddd20bea6ab28c765ea6bd3af6a85b1740588b53db7eef706f--MicrosoftEdge-154.0.4258.48.dmg  # 410.5MB, counted under /Users/szymonwronski/Library/Caches/Homebrew
+/Users/szymonwronski/Library/Caches/Homebrew/downloads/a28b466e0449a9c6bd99cb71b807b428ee46559d93cd8bc8109ae0eff1bd7b5e--Stats.dmg  # 7.6MB, counted under /Users/szymonwronski/Library/Caches/Homebrew
+/Users/szymonwronski/Library/Caches/Homebrew/downloads/a49cb05c2a7615a48594c94d2173f94d060eba991fa43fa8402a572935de26e1--tmux-3.7c-1.bottle_manifest.json  # 51KB, counted under /Users/szymonwronski/Library/Caches/Homebrew
+/Users/szymonwronski/Library/Caches/Homebrew/downloads/a93ff09276b13c025b31212a7dd13643cf8f04016ba400e377b0d65274ff3a14--mise-2026.9.15.bottle_manifest.json  # 19KB, counted under /Users/szymonwronski/Library/Caches/Homebrew
+/Users/szymonwronski/Library/Caches/Homebrew/downloads/a95e4e3ae6da0dc707c85d03d151b6fe6706749f55b7b05fb97f321c32cb9263--yazi-26.9.1.bottle_manifest.json  # 15KB, counted under /Users/szymonwronski/Library/Caches/Homebrew
+/Users/szymonwronski/Library/Caches/Homebrew/downloads/aac49db54e0ee25e7cbeef891d53bcce7410fb6b6ed16f1775f1f0177cb2f13e--zen.macos-universal.dmg  # 232.1MB, counted under /Users/szymonwronski/Library/Caches/Homebrew
+/Users/szymonwronski/Library/Caches/Homebrew/downloads/aadc2b7d3a96f210bfdec7dbb86e15cdbacb8b52bd8a426fd035dba3ae24c545--zinit--3.17.0.all.bottle.tar.gz  # 341KB, counted under /Users/szymonwronski/Library/Caches/Homebrew
+/Users/szymonwronski/Library/Caches/Homebrew/downloads/affc4b9e3891f14a440110aaa8e3167d37b897c66703b53c2d91b97ab2dcd0bd--deno-2.9.7.bottle_manifest.json  # 75KB, counted under /Users/szymonwronski/Library/Caches/Homebrew
+/Users/szymonwronski/Library/Caches/Homebrew/downloads/b0f4541768ffa8e8286ab13e2c2dfcc40517043508ada3d507ce3b12a5adecc4--node--26.10.0_1.arm64_tahoe.bottle.tar.gz  # 21.2MB, counted under /Users/szymonwronski/Library/Caches/Homebrew
+/Users/szymonwronski/Library/Caches/Homebrew/downloads/b484811fb9e6c6e022c796866c1948980d62bed76717e933993f43a7328083c0--tor-browser-macos-15.0.24.dmg  # 176.9MB, counted under /Users/szymonwronski/Library/Caches/Homebrew
+/Users/szymonwronski/Library/Caches/Homebrew/downloads/b6c2b2238de4cb8e2ef673d6a94d6315fb3cd75cf1b7690f81f4e85f5a8792ec--Discord.dmg  # 215.2MB, counted under /Users/szymonwronski/Library/Caches/Homebrew
+/Users/szymonwronski/Library/Caches/Homebrew/downloads/b6fbdc195af6eb034ced8690ac4f3a9cf30d5117853bd4d0e93453065b59d028--spicetify-cli--2.45.1.arm64_tahoe.bottle.tar.gz  # 4.9MB, counted under /Users/szymonwronski/Library/Caches/Homebrew
+/Users/szymonwronski/Library/Caches/Homebrew/downloads/b77ae7bc2af5ab17dce718280d776dc3f7d844ace1385147d3932cc7fa377a82--pycparser--3.0.all.bottle.tar.gz  # 104KB, counted under /Users/szymonwronski/Library/Caches/Homebrew
+/Users/szymonwronski/Library/Caches/Homebrew/downloads/b8628ac82450ae20c419d69ccd2a7c77ecd38392f83148eabc546eb8bf7d7b61--Vorssaint-3.4.0.dmg  # 24.2MB, counted under /Users/szymonwronski/Library/Caches/Homebrew
+/Users/szymonwronski/Library/Caches/Homebrew/downloads/b86db19b01b058e29c78eb04fb542c51805234feb0cd2d48308444fb6c3df524--simdjson-4.6.11.bottle_manifest.json  # 16KB, counted under /Users/szymonwronski/Library/Caches/Homebrew
+/Users/szymonwronski/Library/Caches/Homebrew/downloads/bca894ff452cbc38a646fcfcb9847dbcbfc46118472ebb50c08154ca27ad74d3--OrbStack_v2.2.3_20963_arm64.dmg  # 463.1MB, counted under /Users/szymonwronski/Library/Caches/Homebrew
+/Users/szymonwronski/Library/Caches/Homebrew/downloads/bf2a9154eee8c406e9c000db29a3e4b4a3dca8625b53387ab1489626e258c58c--xcodes--2.1.0.arm64_tahoe.bottle.tar.gz  # 3.1MB, counted under /Users/szymonwronski/Library/Caches/Homebrew
+/Users/szymonwronski/Library/Caches/Homebrew/downloads/c1d762302753cb67e42063f2158c0744eca75be152aca60e8c1d46cbb377b327--yyjson-0.13.0.bottle_manifest.json  # 15KB, counted under /Users/szymonwronski/Library/Caches/Homebrew
+/Users/szymonwronski/Library/Caches/Homebrew/downloads/c1dae6ea707bf4e1ec3271d48e6e72f0ee95338ef68db7a8c38233018443111c--mise--2026.9.15.arm64_tahoe.bottle.tar.gz  # 66.1MB, counted under /Users/szymonwronski/Library/Caches/Homebrew
+/Users/szymonwronski/Library/Caches/Homebrew/downloads/c2dbcbbe814ac94da161d9b252199b6dfdd6717411356d52c23494c32be36b4d--sdl2-compat-2.32.72.bottle_manifest.json  # 119KB, counted under /Users/szymonwronski/Library/Caches/Homebrew
+/Users/szymonwronski/Library/Caches/Homebrew/downloads/c404021c771245f5af54c9213137dda7799a7ce39048c43bc31b15ea443aebf0--lua--5.5.1.arm64_tahoe.bottle.tar.gz  # 333KB, counted under /Users/szymonwronski/Library/Caches/Homebrew
+/Users/szymonwronski/Library/Caches/Homebrew/downloads/c54519ab16d00fe5978d6d9f1a2bc06c45f55c5eb91995b40389fe8e12db18ff--MacMediaKeyForwarder.dmg  # 436KB, counted under /Users/szymonwronski/Library/Caches/Homebrew
+/Users/szymonwronski/Library/Caches/Homebrew/downloads/caa08d06561969ba582cd0252ce622b677c48f9fe1eeb53da6d6c3fad37250b1--simdutf--9.2.1_1.arm64_tahoe.bottle.tar.gz  # 400KB, counted under /Users/szymonwronski/Library/Caches/Homebrew
+/Users/szymonwronski/Library/Caches/Homebrew/downloads/cb95d1ec8b3050be17ff90ed699d8374fa62ac0d536fb0946832f4048fa73d8c--coreutils-9.12-1.bottle_manifest.json  # 35KB, counted under /Users/szymonwronski/Library/Caches/Homebrew
+/Users/szymonwronski/Library/Caches/Homebrew/downloads/cd33e55c535477de2616832209d631ddad3458f22e9314e64694ba4bed9b1936--merve--1.2.2_3.arm64_tahoe.bottle.tar.gz  # 34KB, counted under /Users/szymonwronski/Library/Caches/Homebrew
+/Users/szymonwronski/Library/Caches/Homebrew/downloads/cd4c0ccd48dec1af95a5400ee2ae43dcfa5eabf0642dfc3e6ba61a12c6037bb1--ngrok-v3-3.39.11-darwin-arm64.zip  # 11.3MB, counted under /Users/szymonwronski/Library/Caches/Homebrew
+/Users/szymonwronski/Library/Caches/Homebrew/downloads/cebdda9d481c55c9bcc46983564c2c3c31838a294543c010eb08fc7c66da3722--utf8proc-2.12.0.bottle_manifest.json  # 13KB, counted under /Users/szymonwronski/Library/Caches/Homebrew
+/Users/szymonwronski/Library/Caches/Homebrew/downloads/d03e30c6dfb7ddc17ea7b7d28ba6e114d597921ffd2b230f8812d18980d4080e--libuv-1.53.0.bottle_manifest.json  # 13KB, counted under /Users/szymonwronski/Library/Caches/Homebrew
+/Users/szymonwronski/Library/Caches/Homebrew/downloads/d10e37136235dcfe80f8b2cccf512fed59499cdf7a49a4e642fd7048d1d54d4f--cairo-1.18.6.bottle_manifest.json  # 134KB, counted under /Users/szymonwronski/Library/Caches/Homebrew
+/Users/szymonwronski/Library/Caches/Homebrew/downloads/d1ea8e44c423c5be2d7a81b7cafadcb485c05b25b3fbe73a01060d18587e36a0--python@3.14--3.14.8.arm64_tahoe.bottle.tar.gz  # 19.3MB, counted under /Users/szymonwronski/Library/Caches/Homebrew
+/Users/szymonwronski/Library/Caches/Homebrew/downloads/d2533b7b45d6b6ad3533e5bf4e3219e89ab88380b825cf2bec5739b0edbf2a6f--lazygit-0.65.1.bottle_manifest.json  # 13KB, counted under /Users/szymonwronski/Library/Caches/Homebrew
+/Users/szymonwronski/Library/Caches/Homebrew/downloads/d339e9d69a317edbed49818394befa4c5805b33cf4afc8ffee386a72577aaa56--mole--1.56.1.arm64_tahoe.bottle.tar.gz  # 4.1MB, counted under /Users/szymonwronski/Library/Caches/Homebrew
+/Users/szymonwronski/Library/Caches/Homebrew/downloads/d344bd4834b3d135eaae74a2ae9e11d003daa0dbd5a17389490139322a67bb12--Yaak_2026.8.1_aarch64.dmg  # 68.1MB, counted under /Users/szymonwronski/Library/Caches/Homebrew
+/Users/szymonwronski/Library/Caches/Homebrew/downloads/d5714bfd71c5843a763345ed876c302bb12c14aa4c449e2334a7e68e4c363bc1--ideaIU-2026.2.3-aarch64.dmg  # 1.53GB, counted under /Users/szymonwronski/Library/Caches/Homebrew
+/Users/szymonwronski/Library/Caches/Homebrew/downloads/d9208c5127389b1a332c63746b14f6c679de1b922854657f7121b080dedbb4eb--utf8proc--2.12.0.arm64_tahoe.bottle.tar.gz  # 111KB, counted under /Users/szymonwronski/Library/Caches/Homebrew
+/Users/szymonwronski/Library/Caches/Homebrew/downloads/d9d4c2cb1d581a8204659dbba1f5757b191c7702be9e41e2168d618f6e990391--sesh-2.31.0.bottle_manifest.json  # 13KB, counted under /Users/szymonwronski/Library/Caches/Homebrew
+/Users/szymonwronski/Library/Caches/Homebrew/downloads/dc523625c6033d3be13526329ff81f15015da3fb93e0805a95efabf56a8e81e9--fzf-0.74.4.bottle_manifest.json  # 15KB, counted under /Users/szymonwronski/Library/Caches/Homebrew
+/Users/szymonwronski/Library/Caches/Homebrew/downloads/dd583735a3da3df9159830ed76765322cec8cc4ddf4830640c619f618b775a81--fd-10.5.0.bottle_manifest.json  # 18KB, counted under /Users/szymonwronski/Library/Caches/Homebrew
+/Users/szymonwronski/Library/Caches/Homebrew/downloads/dec6ae256ae0e56dec91ca550b0b479a83c329d1c1110beedc6297105215cb90--KeyCastr.app.zip  # 2.7MB, counted under /Users/szymonwronski/Library/Caches/Homebrew
+/Users/szymonwronski/Library/Caches/Homebrew/downloads/dfa4e2523625f78b93131568be466d9036e7906b0159134fba0c5fcf240c1ad4--fastfetch--2.69.0.arm64_tahoe.bottle.tar.gz  # 615KB, counted under /Users/szymonwronski/Library/Caches/Homebrew
+/Users/szymonwronski/Library/Caches/Homebrew/downloads/e0a73cd7ae9b336eba0a7e7ed0a584154d4fd243441ba5b82e27720bb836a471--sevenzip--26.03.arm64_tahoe.bottle.tar.gz  # 1.9MB, counted under /Users/szymonwronski/Library/Caches/Homebrew
+/Users/szymonwronski/Library/Caches/Homebrew/downloads/e1f4c4c9a99cbd5bb671a6952b6359722d1bd2ef78a9f974072ceb563786a31a--spicetify-cli-2.45.1.bottle_manifest.json  # 13KB, counted under /Users/szymonwronski/Library/Caches/Homebrew
+/Users/szymonwronski/Library/Caches/Homebrew/downloads/e58a042ad5d9e51c1a3a2bcdf2d67b342b0e72b80e5b661602e99a4772d74c12--cffi--2.1.1.arm64_tahoe.bottle.tar.gz  # 354KB, counted under /Users/szymonwronski/Library/Caches/Homebrew
+/Users/szymonwronski/Library/Caches/Homebrew/downloads/e8a67f4088205e40a3841cd46f51cc1d9f3776035e16b5973cee16838903bf84--libssh2-1.11.1_6.bottle_manifest.json  # 27KB, counted under /Users/szymonwronski/Library/Caches/Homebrew
+/Users/szymonwronski/Library/Caches/Homebrew/downloads/e919aabde62143ca97b44601f4678330c28ed72b54b9486e63bd8352384b7f56--protobuf-c--1.5.2_20.arm64_tahoe.bottle.tar.gz  # 130KB, counted under /Users/szymonwronski/Library/Caches/Homebrew
+/Users/szymonwronski/Library/Caches/Homebrew/downloads/eb1879c7c5321983cf82250daaa67788acc52afa569a8ad864f9c7b59b222223--kitty-0.49.2.dmg  # 77.8MB, counted under /Users/szymonwronski/Library/Caches/Homebrew
+/Users/szymonwronski/Library/Caches/Homebrew/downloads/ec12c9f04d32e4861d699a2d0520b009072e671c2e94dd7849e1aef69d034614--libpng--1.6.59.arm64_tahoe.bottle.tar.gz  # 460KB, counted under /Users/szymonwronski/Library/Caches/Homebrew
+/Users/szymonwronski/Library/Caches/Homebrew/downloads/edc6ff774e2036d3cace8550846ca76b07ec07130d38cbfcc6b5e36dd21a62e2--opencode--1.18.30_2.arm64_tahoe.bottle.tar.gz  # 53.8MB, counted under /Users/szymonwronski/Library/Caches/Homebrew
+/Users/szymonwronski/Library/Caches/Homebrew/downloads/f07bac314f22ff6fce4324110d009e9b6b9f04e2f9f23d53b0f588b487f9f936--libgit2-1.9.7.bottle_manifest.json  # 54KB, counted under /Users/szymonwronski/Library/Caches/Homebrew
+/Users/szymonwronski/Library/Caches/Homebrew/downloads/f20bac2e6b877181cbe458be6c265feb86acf5aa503115162bd90a8dd3750aa0--libvmaf-3.2.1.bottle_manifest.json  # 14KB, counted under /Users/szymonwronski/Library/Caches/Homebrew
+/Users/szymonwronski/Library/Caches/Homebrew/downloads/f326ea9422db1945b2fd3e7e0d9cf8ff9045f8cdb179256d1a5c2c0bee9d59f2--protobuf-36.2.bottle_manifest.json  # 25KB, counted under /Users/szymonwronski/Library/Caches/Homebrew
+/Users/szymonwronski/Library/Caches/Homebrew/downloads/f3e275fc2ef44a0c67dde1be5835acd9f40fb68be99477a343947d04fca74f15--clang-format--23.1.2.arm64_tahoe.bottle.tar.gz  # 1.5MB, counted under /Users/szymonwronski/Library/Caches/Homebrew
+/Users/szymonwronski/Library/Caches/Homebrew/downloads/f8c321a6d39b32915a3acacfcbe160b23c283fdc59798c7f1dbac349b502ae3e--tree-sitter-cli-0.27.0.bottle_manifest.json  # 16KB, counted under /Users/szymonwronski/Library/Caches/Homebrew
+/Users/szymonwronski/Library/Caches/Homebrew/downloads/f8f4774059b8ad9ad9c92a82f5f2805861fb58c6e05fb4a6a00dbb2bc4c70b6d--x265--4.3.arm64_tahoe.bottle.1.tar.gz  # 5.3MB, counted under /Users/szymonwronski/Library/Caches/Homebrew
+/Users/szymonwronski/Library/Caches/Homebrew/downloads/fa7c16ce343b1ffb54f1b0dac08e64d7a2d7c58953c6e15fba06976d221b337e--certifi--2026.7.22.all.bottle.1.tar.gz  # 7KB, counted under /Users/szymonwronski/Library/Caches/Homebrew
+/Users/szymonwronski/Library/Caches/Homebrew/downloads/fe5cd0b34263c0b7b50341bd8d47ff157a3829bd3c25da051abaf8e396aa090d--mpg123--1.33.7.arm64_tahoe.bottle.1.tar.gz  # 649KB, counted under /Users/szymonwronski/Library/Caches/Homebrew
+/Users/szymonwronski/Library/Caches/Homebrew/downloads/ff3cfe51d1be636041414fa72635e486f75039df3c8e6999af3841826f7607ab--merve-1.2.2_3.bottle_manifest.json  # 25KB, counted under /Users/szymonwronski/Library/Caches/Homebrew
+
+=== Apps & utilities ===
+/Users/szymonwronski/Library/Application Support/legcord/Cache/Cache_Data  # 67.9MB
+/Users/szymonwronski/Library/Application Support/legcord/Cache/No_Vary_Search  # 8KB
+/Users/szymonwronski/Library/Caches/com.anthropic.claudefordesktop/fsCachedData  # 0B
+/Users/szymonwronski/Library/Logs/Claude/mcp.log  # 0B
+/Users/szymonwronski/Library/Logs/Claude/ssh.log  # 1KB
+/Users/szymonwronski/Library/Logs/Claude/main.log  # 813KB
+/Users/szymonwronski/Library/Logs/Claude/swift.log  # 1KB
+/Users/szymonwronski/Library/Logs/Claude/main-window.log  # 0B
+/Users/szymonwronski/Library/Logs/Claude/claude.ai-web.log  # 10KB
+/Users/szymonwronski/Library/Logs/Claude/cowork_vm_node.log  # 2KB
+/Users/szymonwronski/Library/Logs/Claude/unknown-window.log  # 1KB
+/Users/szymonwronski/.zcompdump  # 58KB
+/Users/szymonwronski/Library/Caches/com.mitchellh.ghostty/sentry  # 4KB
+/Users/szymonwronski/Library/Caches/com.mitchellh.ghostty/fsCachedData  # 20KB
+
+=== Application Support ===
+/Users/szymonwronski/Library/Application Support/Antigravity IDE/Code Cache/js  # 8KB
+/Users/szymonwronski/Library/Application Support/Antigravity IDE/Code Cache/wasm  # 8KB
+/Users/szymonwronski/Library/Application Support/Antigravity IDE/GPUCache/data_1  # 270KB
+/Users/szymonwronski/Library/Application Support/Antigravity IDE/GPUCache/data_0  # 45KB
+/Users/szymonwronski/Library/Application Support/Antigravity IDE/GPUCache/index  # 263KB
+/Users/szymonwronski/Library/Application Support/Antigravity IDE/GPUCache/data_2  # 1.1MB
+/Users/szymonwronski/Library/Application Support/Antigravity IDE/GPUCache/data_3  # 4.2MB
+/Users/szymonwronski/Library/Application Support/Antigravity IDE/DawnGraphiteCache/data_1  # 270KB
+/Users/szymonwronski/Library/Application Support/Antigravity IDE/DawnGraphiteCache/data_0  # 8KB
+/Users/szymonwronski/Library/Application Support/Antigravity IDE/DawnGraphiteCache/index  # 263KB
+/Users/szymonwronski/Library/Application Support/Antigravity IDE/DawnGraphiteCache/data_2  # 8KB
+/Users/szymonwronski/Library/Application Support/Antigravity IDE/DawnGraphiteCache/data_3  # 8KB
+/Users/szymonwronski/Library/Application Support/Antigravity IDE/DawnWebGPUCache/data_1  # 270KB
+/Users/szymonwronski/Library/Application Support/Antigravity IDE/DawnWebGPUCache/data_0  # 8KB
+/Users/szymonwronski/Library/Application Support/Antigravity IDE/DawnWebGPUCache/index  # 263KB
+/Users/szymonwronski/Library/Application Support/Antigravity IDE/DawnWebGPUCache/data_2  # 8KB
+/Users/szymonwronski/Library/Application Support/Antigravity IDE/DawnWebGPUCache/data_3  # 8KB
+/Users/szymonwronski/Library/Application Support/Antigravity IDE/Cache/Cache_Data  # 41KB
+/Users/szymonwronski/Library/Application Support/Antigravity IDE/Cache/No_Vary_Search  # 8KB
+/Users/szymonwronski/Library/Application Support/Antigravity IDE/CachedData/ecfbad74d93962fc8ca485d93ab9b4f3d4cb6cf8  # 21.5MB
+/Users/szymonwronski/Library/Application Support/legcord/Code Cache/js  # 3.4MB
+/Users/szymonwronski/Library/Application Support/legcord/Code Cache/wasm  # 344KB
+/Users/szymonwronski/Library/Application Support/legcord/GPUCache/data_1  # 270KB
+/Users/szymonwronski/Library/Application Support/legcord/GPUCache/data_0  # 45KB
+/Users/szymonwronski/Library/Application Support/legcord/GPUCache/index  # 263KB
+/Users/szymonwronski/Library/Application Support/legcord/GPUCache/data_2  # 1.1MB
+/Users/szymonwronski/Library/Application Support/legcord/GPUCache/data_3  # 8KB
+/Users/szymonwronski/Library/Application Support/legcord/DawnGraphiteCache/data_1  # 270KB
+/Users/szymonwronski/Library/Application Support/legcord/DawnGraphiteCache/data_0  # 8KB
+/Users/szymonwronski/Library/Application Support/legcord/DawnGraphiteCache/index  # 263KB
+/Users/szymonwronski/Library/Application Support/legcord/DawnGraphiteCache/data_2  # 8KB
+/Users/szymonwronski/Library/Application Support/legcord/DawnGraphiteCache/data_3  # 8KB
+/Users/szymonwronski/Library/Application Support/legcord/DawnWebGPUCache/data_1  # 270KB
+/Users/szymonwronski/Library/Application Support/legcord/DawnWebGPUCache/data_0  # 8KB
+/Users/szymonwronski/Library/Application Support/legcord/DawnWebGPUCache/index  # 263KB
+/Users/szymonwronski/Library/Application Support/legcord/DawnWebGPUCache/data_2  # 8KB
+/Users/szymonwronski/Library/Application Support/legcord/DawnWebGPUCache/data_3  # 8KB
+
+# ============================================
+# Summary
+# ============================================
+# Potential cleanup: 10.03GB
+# Items: 930
+# Categories: 6

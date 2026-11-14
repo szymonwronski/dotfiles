@@ -10,11 +10,18 @@
 
 {
    "$schema": "https://vicinae.com/schemas/config.json",
+   "pop_to_root_on_close": true,
+   "wrap_navigation": true,
    "tray": {
       "enabled": false
    },
    "global_shortcuts": {
       "toggle": "alt+;"
+   },
+   "font": {
+      "normal": {
+         "family": ".AppleSystemUIFont"
+      }
    },
    "theme": {
       "dark": {
@@ -31,6 +38,43 @@
       "material": "liquid_glass"
    },
    "providers": {
+      "@AntonNiklasson/store.raycast.lorem-ipsum": {
+         "entrypoints": {
+            "ai-generate": {
+               "enabled": false
+            },
+            "words": {
+               "enabled": true
+            }
+         }
+      },
+      "@gebeto/store.raycast.translate": {
+         "preferences": {
+            "autoInput": true,
+            "defaultAction": "copy",
+            "lang1": "en",
+            "lang2": "pl",
+            "langFrom": "auto",
+            "prioritizeCrossLanguage": false
+         },
+         "entrypoints": {
+            "instant-translate-copy": {
+               "enabled": false
+            },
+            "instant-translate-paste": {
+               "enabled": false
+            },
+            "instant-translate-view": {
+               "enabled": false
+            },
+            "quick-translate": {
+               "enabled": false
+            },
+            "translate-form": {
+               "enabled": false
+            }
+         }
+      },
       "@jlrochin/store.raycast.mole": {
          "entrypoints": {
             "touchid": {
@@ -41,16 +85,114 @@
             }
          }
       },
+      "@mooxl/store.raycast.coffee": {
+         "entrypoints": {
+            "addSchedule": {
+               "enabled": false
+            },
+            "caffeinate": {
+               "enabled": false
+            },
+            "caffeinateFor": {
+               "enabled": false
+            },
+            "caffeinateUntil": {
+               "enabled": false
+            },
+            "caffeinateWhile": {
+               "enabled": false
+            },
+            "decaffeinate": {
+               "enabled": false
+            },
+            "status": {
+               "enabled": false
+            }
+         }
+      },
+      "@nhojb/store.raycast.brew": {
+         "preferences": {
+            "terminalApp": "terminal",
+            "greedyUpgrades": false,
+            "disableDownloadConcurrency": false,
+            "pinnedFirst": true,
+            "closeAfterAction": false,
+            "verboseLogging": false
+         },
+         "entrypoints": {
+            "clear-cache": {
+               "enabled": true
+            }
+         }
+      },
+      "@thomaslombart/store.raycast.github": {
+         "preferences": {
+            "defaultSearchTerms": "author:@me",
+            "vscodeBuild": "vscode",
+            "repositoryCloneProtocol": "ssh",
+            "isOpenInBrowser": false,
+            "includeTeamReviewRequests": true,
+            "repositoryFilterMode": "all"
+         },
+         "entrypoints": {
+            "download-repository": {
+               "enabled": false
+            },
+            "my-starred-repositories": {
+               "enabled": false
+            }
+         }
+      },
+      "@vimtor/store.raycast.tailwindcss": {
+         "entrypoints": {
+            "search-colors": {
+               "enabled": false
+            },
+            "search-components": {
+               "enabled": false
+            },
+            "search-documentation": {
+               "enabled": false
+            }
+         }
+      },
+      "browser-extension": {
+         "enabled": false,
+         "entrypoints": {
+            "browse-tabs": {
+               "enabled": false
+            },
+            "shortcut-active-tab": {
+               "enabled": false
+            }
+         }
+      },
+      "clipboard": {
+         "entrypoints": {
+            "history": {
+               "shortcut": "alt+Q"
+            }
+         }
+      },
       "core": {
          "entrypoints": {
             "manage-fallback": {
                "enabled": false
             },
+            "open-config-file": {
+               "enabled": false
+            },
             "open-default-config": {
+               "enabled": false
+            },
+            "reload-scripts": {
                "enabled": false
             },
             "report-bug": {
                "enabled": false
+            },
+            "search-emojis": {
+               "shortcut": "super+control+SPACE"
             },
             "show-logs": {
                "enabled": false
@@ -61,16 +203,69 @@
          }
       },
       "developer": {
+         "enabled": false,
          "entrypoints": {
             "create": {
                "enabled": false
             }
          }
       },
+      "files": {
+         "entrypoints": {
+            "search": {
+               "enabled": true
+            }
+         }
+      },
+      "manage-shortcuts": {
+         "enabled": true,
+         "entrypoints": {
+            "create": {
+               "enabled": true
+            },
+            "manage": {
+               "enabled": true
+            }
+         }
+      },
       "media": {
          "enabled": false
       },
+      "screenshots": {
+         "enabled": false,
+         "entrypoints": {
+            "browse": {
+               "enabled": false
+            },
+            "paste-last": {
+               "enabled": false
+            }
+         }
+      },
+      "shortcuts": {
+         "enabled": true
+      },
+      "snippets": {
+         "enabled": false,
+         "entrypoints": {
+            "create": {
+               "enabled": false
+            },
+            "manage": {
+               "enabled": false
+            }
+         }
+      },
+      "system": {
+         "enabled": false,
+         "entrypoints": {
+            "run": {
+               "enabled": false
+            }
+         }
+      },
       "theme": {
+         "enabled": false,
          "entrypoints": {
             "set": {
                "enabled": false
@@ -78,6 +273,7 @@
          }
       },
       "wm": {
+         "enabled": false,
          "entrypoints": {
             "switch-windows": {
                "enabled": false

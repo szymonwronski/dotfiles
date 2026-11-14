@@ -1,0 +1,11 @@
+[general]
+font = "JetBrains Mono"
+
+[modules.icon]
+icon = "🧃🌎"
+
+[modules.spotify]
+enabled = true
+
+[modules.aerospace]
+enabled = true

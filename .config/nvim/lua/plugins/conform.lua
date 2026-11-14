@@ -11,6 +11,7 @@ return {
 			lua = { "stylua" },
 			rust = { "rustfmt" },
 			bash = { "shfmt" },
+			swift = { "swiftformat" },
 			javascript = { "biome", "prettierd", "prettier", stop_after_first = true },
 			typescript = { "biome", "prettierd", "prettier", stop_after_first = true },
 			javascriptreact = { "biome", "prettierd", "prettier", stop_after_first = true },

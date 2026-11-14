@@ -1,6 +1,8 @@
 [tools]
 bun = "latest"
-go = "1.25"
-node = "lts"
+dotnet = "latest"
+go = "latest"
+neovim = "nightly"
+node = "latest"
 pnpm = "latest"
 python = "latest"

@@ -126,6 +126,3 @@ n() {
 }
 
 gc() { git commit -m "$*"; }
-
-# Added by Antigravity IDE
-export PATH="/Users/szymonwronski/.antigravity-ide/antigravity-ide/bin:$PATH"

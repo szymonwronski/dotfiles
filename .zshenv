@@ -1,6 +1,5 @@
-. "$HOME/.local/bin/env"
 . "$HOME/.cargo/env"
-. "/Users/szymonwronski/.local/share/bob/env/env.sh"
+. "$HOME/.local/bin/env"
 
 export TLRC_CONFIG=~/.config/tlrc/config.toml
 
